@@ -5,7 +5,7 @@
 | 目录 | 内容与归属 |
 |---|---|
 | [纽约数据](./) | 2026-11-10 的纽约市开放数据快照，3,581 条事件、492 个部署。来源为 FloodNet (New York University and The City University of New York) 和 NYC DEP。[事件](https://data.cityofnewyork.us/d/aq7i-eu5q) · [部署](https://data.cityofnewyork.us/d/kb2e-tjy3) · [指定论文 Mydlarz et al. 2024](https://doi.org/10.1029/2023WR036806) |
-| [外部数据](../external/) | Beaufort 真实路面相对水位（Adam Gold，CC BY 4.0）、Madison 真实路口排水设施观测（USGS），以及 UrbanFlood24 的深圳模拟网格抽样（Cao、Wang、Qin，CC BY 4.0）。[逐项来源、单位及转换](external/README.txt) |
+| [外部数据](../external/) | Beaufort 真实路面相对水位（Adam Gold，CC BY 4.0）、Madison 真实路口排水设施观测（USGS），以及 UrbanFlood24 的深圳模拟网格抽样（Cao、Wang、Qin，CC BY 4.0）。[逐项来源、单位及转换](../external/README.txt) |
 
 原始数据与派生数据保留各来源的条款和署名。深圳部分仅包含复现实验所用的单场景 625 个网格点。纽约早期连续数据的两份可选月文件由 [FloodNet Zenodo](https://zenodo.org/records/10211443) 单独提供。
 
