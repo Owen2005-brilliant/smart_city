@@ -1,0 +1,14 @@
+#comparison[hidden]{display:none}
+#comparison select{max-width:100%}
+.compareClock{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:10px 0}
+.compareClock strong{font-size:23px;color:#175357;font-variant-numeric:tabular-nums}
+#comparePlot{width:100%;height:200px;display:block}
+#compareSlider{width:100%;padding:0;accent-color:#086768;cursor:pointer;display:block;margin-top:5px}
+#compareStep.primary{background:#115e60;color:white;border-color:#115e60}
+.compareCards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(290px,100%),1fr));gap:20px;margin:16px 0 14px}
+.compareCards section{border-top:3px solid var(--tone);padding-top:8px}
+.compareCards h3{font-size:15px;color:var(--tone);margin:0 0 3px}
+.compareCards strong{font-size:22px}
+.compareCards p{margin:4px 0;font-size:15px}
+.subtle,#compareLatest{color:#496163;font-size:14px}
+@media(max-width:600px){#comparison .controls label{display:block;max-width:100%}#comparePlot{height:178px}.compareCards{gap:10px}}

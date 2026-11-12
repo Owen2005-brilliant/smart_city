@@ -1,0 +1,20 @@
+<section id="comparison" hidden>
+  <article>
+    <h2>同一场积水，提前首判会怎样？</h2>
+    <p>两套策略同时接收当前可见的水深，允许首判后 3 分钟复查。实测达到 4 英寸记为升级。</p>
+    <div class="controls">
+      <label>实测案例 <select id="compareCase"></select></label>
+      <label>显示策略 <select id="compareView"><option value="both">两套同屏</option><option value="2+3">仅看第 2 分钟首判</option><option value="5+3">仅看第 5 分钟首判</option></select></label>
+    </div>
+    <div class="compareClock"><strong id="compareTime"></strong><span id="compareLatest"></span></div>
+    <canvas id="comparePlot" aria-label="当前已观测水深曲线、4 英寸实测阈值及已经发出的告警"></canvas>
+    <label for="compareSlider" class="subtle">回放进度（首湿后 0 至 35 分钟）</label>
+    <input id="compareSlider" type="range" min="0" max="2100" step="1" value="0">
+    <div class="controls">
+      <button id="compareStep" class="primary">推进到第 2 分钟</button><button id="comparePacket">下一条读数</button><button id="compareEnd">查看窗末</button><button id="compareReset">重新开始</button>
+    </div>
+    <div id="compareCards" class="compareCards" aria-live="polite"></div>
+    <p class="note" id="compareResult"></p>
+  </article>
+  <details><summary>这两例怎样评分？</summary><p>两例均为非潮汐站；模型和门槛来自首判实验的历史期。提前量从告警算到越线前最后一个低于 4 英寸的观测点，至少 5 分钟算及时。两例用于说明收益与代价。两种策略在完整后期样本中的同预算比较见中期报告第 10 页。</p></details>
+</section>

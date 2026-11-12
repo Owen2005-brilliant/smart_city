@@ -1,13 +1,47 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>街道积水升级检测器</title><style>
 *{box-sizing:border-box}body{margin:0;background:#f4f3ee;font:16px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:#192f33}main{max-width:1060px;margin:auto;padding:28px 28px 60px}header{border-top:5px solid #08676b}h1{font-size:clamp(25px,4vw,44px);letter-spacing:-.04em;line-height:1.2;margin:18px 0 7px}h2{font-size:25px;margin:6px 0}p{margin:6px 0 12px}small{color:#4b6265}button,select{font:inherit;padding:6px 14px;border:1px solid #adbbba;background:white;color:#183235;border-radius:6px;cursor:pointer}button[aria-pressed=true]{background:#0b6265;color:white;border-color:#0b6265}nav, .controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:18px 0}article{background:white;border:1px solid #dbe2df;border-radius:12px;padding:20px 25px}img{display:block;width:100%;height:auto}#stage{font-weight:700;color:#075e62}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:12px 0}.cell{border-top:2px solid #acc8c7;padding:8px 0}.cell b{display:block;font-size:21px}.note{background:#eff4f1;padding:12px 16px}.legend{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}td,th{text-align:left;border-bottom:1px solid #dde3e0;padding:8px 5px}footer{margin-top:15px;font-size:13px;color:#4e6162}a{color:#086065}button:focus-visible,select:focus-visible{outline:3px solid #cc8a28}@media(max-width:560px){main{padding:15px 10px}article{padding:12px}.grid{grid-template-columns:1fr}.cell b{font-size:17px}table{font-size:14px}}
-canvas{width:100%;height:auto}input{font:inherit;width:6em;padding:6px;border:1px solid #9bb1ae;border-radius:5px}details{margin:16px 0}summary{cursor:pointer}#err{color:#9b422d}button:disabled{opacity:.48}#decisions p{border-left:3px solid #9cbab7;padding-left:12px} #sitedata{font-size:14px}</style></head><body><main><header><h1>街道积水升级检测器</h1><p>纽约 FloodNet 实测回放 · 未来 30 分钟内达到 4 英寸 · 目标为至少提前 5 分钟</p></header>
-<nav aria-label="查看内容"><button id="v2">运行检测器</button><button id="v0">前期案例回放</button><button id="v1">前期策略对照</button></nav>
+canvas{width:100%;height:auto}input{font:inherit;width:6em;padding:6px;border:1px solid #9bb1ae;border-radius:5px}details{margin:16px 0}summary{cursor:pointer}#err{color:#9b422d}button:disabled{opacity:.48}#decisions p{border-left:3px solid #9cbab7;padding-left:12px} #sitedata{font-size:14px}#comparison[hidden]{display:none}
+#comparison select{max-width:100%}
+.compareClock{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:10px 0}
+.compareClock strong{font-size:23px;color:#175357;font-variant-numeric:tabular-nums}
+#comparePlot{width:100%;height:200px;display:block}
+#compareSlider{width:100%;padding:0;accent-color:#086768;cursor:pointer;display:block;margin-top:5px}
+#compareStep.primary{background:#115e60;color:white;border-color:#115e60}
+.compareCards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(290px,100%),1fr));gap:20px;margin:16px 0 14px}
+.compareCards section{border-top:3px solid var(--tone);padding-top:8px}
+.compareCards h3{font-size:15px;color:var(--tone);margin:0 0 3px}
+.compareCards strong{font-size:22px}
+.compareCards p{margin:4px 0;font-size:15px}
+.subtle,#compareLatest{color:#496163;font-size:14px}
+@media(max-width:600px){#comparison .controls label{display:block;max-width:100%}#comparePlot{height:178px}.compareCards{gap:10px}}
+</style></head><body><main><header><h1>街道积水升级检测器</h1><p>纽约 FloodNet 实测回放 · 观察至首湿后第 35 分钟 · 目标为越线前至少 5 分钟告警</p></header>
+<nav aria-label="查看内容"><button id="v2">运行检测器</button><button id="v3">早判与晚判对照</button><button id="v0">前期案例回放</button><button id="v1">前期策略对照</button></nav>
 <section id="instrument"><article><h2>输入读数，运行检测</h2><div class="controls"><select id="mode" aria-label="输入来源"></select><span id="sitedata"></span></div>
 <div id="custom" hidden><label>站点属性 <select id="tide"><option value="0">非潮汐站</option><option value="1">潮汐影响站</option></select></label><div class="controls"><label>经过秒数 <input id="stamp" type="number" min="0" step="1" value="0"></label><label>水深（英寸） <input id="depth" type="number" min="0" step=".01" value="0.5"></label><button id="append">录入一条读数</button></div></div>
 <div class="controls"><button id="packet">下一条实测读数</button><button id="nextstage">推进到下一决策时刻</button><button id="finish">回放至窗末</button><button id="clearRun">重新开始</button></div><div role="alert" id="err"></div>
 <div class="grid"><div class="cell">运行时间 · 分钟:秒<b id="clockText"></b></div><div class="cell">检测状态<b id="signal" aria-live="polite"></b></div></div>
 <canvas id="chart" width="1000" height="220" aria-label="已接收的水深与4英寸实测阈值"></canvas><p id="sampleInfo"></p><h3>决策记录</h3><div id="decisions"></div>
 </article><details><summary>算法与回测口径</summary><p>超过 10 mm 开始计时。第 5 和第 8 分钟以首个湿读数和最新读数计算正涨速外推值，再结合站点潮汐属性评分。两次判断使用同一个结束时刻。外推触发线是训练得到的评分规则；4 英寸是用来核实是否真的升级的实测阈值。</p><p id="validation"></p><p>以 2025 年 7 月前事件训练，在 2026 年上半年按站点类型分别锁定门槛，同分读数采取相同决策。测试覆盖 2026 年 7 至 10 月的可评分积水事件。自填数据仅用于单次积水过程演示。</p></details></section>
+<section id="comparison" hidden>
+  <article>
+    <h2>同一场积水，提前首判会怎样？</h2>
+    <p>两套策略同时接收当前可见的水深，允许首判后 3 分钟复查。实测达到 4 英寸记为升级。</p>
+    <div class="controls">
+      <label>实测案例 <select id="compareCase"></select></label>
+      <label>显示策略 <select id="compareView"><option value="both">两套同屏</option><option value="2+3">仅看第 2 分钟首判</option><option value="5+3">仅看第 5 分钟首判</option></select></label>
+    </div>
+    <div class="compareClock"><strong id="compareTime"></strong><span id="compareLatest"></span></div>
+    <canvas id="comparePlot" aria-label="当前已观测水深曲线、4 英寸实测阈值及已经发出的告警"></canvas>
+    <label for="compareSlider" class="subtle">回放进度（首湿后 0 至 35 分钟）</label>
+    <input id="compareSlider" type="range" min="0" max="2100" step="1" value="0">
+    <div class="controls">
+      <button id="compareStep" class="primary">推进到第 2 分钟</button><button id="comparePacket">下一条读数</button><button id="compareEnd">查看窗末</button><button id="compareReset">重新开始</button>
+    </div>
+    <div id="compareCards" class="compareCards" aria-live="polite"></div>
+    <p class="note" id="compareResult"></p>
+  </article>
+  <details><summary>这两例怎样评分？</summary><p>两例均为非潮汐站；模型和门槛来自首判实验的历史期。提前量从告警算到越线前最后一个低于 4 英寸的观测点，至少 5 分钟算及时。两例用于说明收益与代价。两种策略在完整后期样本中的同预算比较见中期报告第 10 页。</p></details>
+</section>
 <section id="replay"><div class="controls"><label for="case">非潮汐站案例</label><select id="case"></select></div>
 <article><small id="meta"></small><h2 id="site"></h2><div class="controls" id="steps"><button>首次决策</button><button>3 分钟后</button><button>揭晓结果</button></div>
 <div class="legend"><span id="stage"></span><small>纵轴为水深（英寸），横轴为距首次决策的分钟数</small></div><img id="plot" alt="随回放阶段逐步显示实际水深，横虚线为四英寸阈值">
@@ -35,6 +69,7 @@ table('intervals',[['global','普通全局校准'],['tail','按风险分组放�
 // The supplied clock may advance independently of packets. No later readings
 // participate in a scheduled decision, even when replay jumps several minutes.
 function detectEpisode(readings, now, tidal, model) {
+  const schedule = model.schedule || [5, 8];
   const wetDepth = 10 / 25.4;
   const seen = readings.filter(([s]) => s <= now);
   const wet = seen.find(([,d]) => d > wetDepth);
@@ -48,22 +83,23 @@ function detectEpisode(readings, now, tidal, model) {
   const event = (time,state,reason) => log.push({time,state,reason});
   event(start,'检出积水','首个水深超过 10 mm 的读数启动时钟。');
   for (const stage of [0,1]) {
-    const at=start+(stage===0?300:480);
+    const at=start+schedule[stage]*60;
     if(now<at || (crossed && crossed[0]<=at)) break;
     const past=active.filter(([s])=>s<=at);
     const last=past[past.length-1];
-    if (at-last[0]>180 || last[1]<=wetDepth || (stage===1 && last[0]<=start+300)) {
+    if (last[0]===start || at-last[0]>180 || last[1]<=wetDepth || (stage===1 && last[0]<=start+60*schedule[0])) {
       status='结束判断：读数不足或积水已退';
       event(at,status,'需要仍湿且最近 3 分钟内的有效观测；复查还需要首次决策之后的新读数。');
       break;
     }
     const elapsed=(last[0]-start)/60;
     const slope=elapsed>0?(last[1]-wet[1])/elapsed:0;
-    const horizon=stage===0?30:27;
+    const horizon=35-schedule[stage];
     const projection=last[1]+horizon*Math.max(0,slope);
     const p=model.params[stage], flag=Number(tidal);
     const trigger=(model.cutoffs[flag]-p.bias-p.tide*flag)/p.depth;
-    const fires=projection>=trigger;
+    const raw=p.bias+p.depth*projection+p.tide*flag;
+    const fires=model.precision===undefined ? projection>=trigger : Number(raw.toFixed(model.precision))>=model.cutoffs[flag];
     status=fires?'发出升级预警':stage===0?'暂缓，3 分钟后复查':'结束判断：未触发预警';
     event(at,status,'平均涨速 '+slope.toFixed(2)+' 英寸/分，按正涨速外推 '+horizon+' 分钟得 '+projection.toFixed(2)+' 英寸，本阶段评分等价的外推触发线为 '+trigger.toFixed(2)+' 英寸。');
     if(fires){alarm=at;break;}
@@ -164,6 +200,412 @@ get('append').onclick=()=>{const t=get('stamp').valueAsNumber,d=get('depth').val
  if(!Number.isSafeInteger(t)||t<0||!Number.isFinite(d)||d<0||(input.length && t<=clockSec)||(wet && t>wet[0]+2100)){get('err').textContent='请输入非负水深和递增的整数秒数，且时间在本次观察窗内。';return;}
  input.push([t,d]);clockSec=t;get('stamp').value=t+60;get('err').textContent='';draw();};
 get('validation').textContent=Object.entries(modelData.stats).map(([k,m])=>k+'共 '+m.n+' 场，升级 '+m.pos+' 场，至少提前 5 分钟捕获 '+m.timely+' 场，未升级事件中误报 '+m.fp+' 场。').join(' ');
-function selectTab(id){['instrument','replay','summary'].forEach((n,i)=>{get(n).hidden=id!==n;get(['v2','v0','v1'][i]).setAttribute('aria-pressed',id===n);});}
-get('v2').onclick=()=>selectTab('instrument');get('v0').onclick=()=>selectTab('replay');get('v1').onclick=()=>selectTab('summary');selectTab('instrument');reset();
+function selectTab(id){['instrument','replay','summary','comparison'].forEach((n,i)=>{get(n).hidden=id!==n;get(['v2','v0','v1','v3'][i]).setAttribute('aria-pressed',id===n);});}
+get('v2').onclick=()=>selectTab('instrument');get('v0').onclick=()=>selectTab('replay');get('v1').onclick=()=>selectTab('summary');get('v3').onclick=()=>selectTab('comparison');selectTab(location.hash==='#compare'?'comparison':'instrument');reset();
+
+const experiment = {
+  "models": {
+    "2+3": {
+      "schedule": [
+        2,
+        5
+      ],
+      "params": [
+        {
+          "depth": 0.08919052079940396,
+          "tide": 3.1623058165988995,
+          "bias": -4.703844032199254
+        },
+        {
+          "depth": 0.31398476753840443,
+          "tide": 4.994538188223551,
+          "bias": -7.269413902191893
+        }
+      ],
+      "cutoffs": [
+        -3.846277175,
+        -0.747602695
+      ],
+      "precision": 8
+    },
+    "5+3": {
+      "schedule": [
+        5,
+        8
+      ],
+      "params": [
+        {
+          "depth": 0.31674544105580554,
+          "tide": 5.447082916805441,
+          "bias": -8.444144861763641
+        },
+        {
+          "depth": 0.5099510463004269,
+          "tide": 4.291670118852041,
+          "bias": -7.644550859002162
+        }
+      ],
+      "cutoffs": [
+        -4.660153425,
+        -1.04382839
+      ],
+      "precision": 8
+    }
+  },
+  "cases": [
+    {
+      "site": "Q - 188th St/ 58th Ave",
+      "date": "2026-07-18",
+      "key": "Q-188th-st-58th-ave-1zbc0d|2026-07-18T16:30:35",
+      "tidal": false,
+      "points": [
+        [
+          0,
+          0.71
+        ],
+        [
+          60,
+          1.97
+        ],
+        [
+          120,
+          1.97
+        ],
+        [
+          180,
+          1.97
+        ],
+        [
+          240,
+          2.24
+        ],
+        [
+          300,
+          2.24
+        ],
+        [
+          360,
+          2.24
+        ],
+        [
+          420,
+          2.24
+        ],
+        [
+          480,
+          2.24
+        ],
+        [
+          600,
+          5.75
+        ],
+        [
+          720,
+          10.39
+        ],
+        [
+          780,
+          10.39
+        ],
+        [
+          840,
+          11.1
+        ],
+        [
+          900,
+          11.42
+        ],
+        [
+          960,
+          11.57
+        ],
+        [
+          1020,
+          11.57
+        ],
+        [
+          1080,
+          11.57
+        ],
+        [
+          1140,
+          11.42
+        ],
+        [
+          1200,
+          11.22
+        ],
+        [
+          1260,
+          9.37
+        ],
+        [
+          1320,
+          8.7
+        ],
+        [
+          1380,
+          8.46
+        ],
+        [
+          1440,
+          7.64
+        ],
+        [
+          1500,
+          6.69
+        ],
+        [
+          1560,
+          5.47
+        ],
+        [
+          1620,
+          3.46
+        ],
+        [
+          1680,
+          1.14
+        ],
+        [
+          1740,
+          0.43
+        ],
+        [
+          1800,
+          0.0
+        ],
+        [
+          1860,
+          0.0
+        ],
+        [
+          1920,
+          0.0
+        ],
+        [
+          1980,
+          0.0
+        ]
+      ]
+    },
+    {
+      "site": "BK - DeWitt Ave/Williams Ave",
+      "date": "2026-07-15",
+      "key": "BK-dewitt-ave-williams-ave-215zzc|2026-07-15T22:39:07",
+      "tidal": false,
+      "points": [
+        [
+          0,
+          0.43
+        ],
+        [
+          60,
+          0.55
+        ],
+        [
+          120,
+          1.81
+        ],
+        [
+          180,
+          2.05
+        ],
+        [
+          240,
+          2.05
+        ],
+        [
+          300,
+          2.05
+        ],
+        [
+          360,
+          2.01
+        ],
+        [
+          420,
+          1.81
+        ],
+        [
+          480,
+          1.34
+        ],
+        [
+          540,
+          1.18
+        ],
+        [
+          600,
+          0.83
+        ],
+        [
+          660,
+          0.83
+        ],
+        [
+          720,
+          0.71
+        ],
+        [
+          780,
+          0.71
+        ],
+        [
+          840,
+          0.71
+        ],
+        [
+          900,
+          0.67
+        ],
+        [
+          960,
+          0.55
+        ],
+        [
+          1020,
+          0.55
+        ],
+        [
+          1080,
+          0.51
+        ],
+        [
+          1140,
+          0.0
+        ],
+        [
+          1199,
+          0.0
+        ],
+        [
+          1259,
+          0.0
+        ],
+        [
+          1439,
+          0.0
+        ]
+      ]
+    }
+  ]
+};
+const compareKeys = ['2+3','5+3'];
+const palette = {'2+3':'#08735f','5+3':'#875299'};
+const milestones = [120,300,480,720,2100];
+let compareSeconds=0;
+
+function currentComparison(){
+  return experiment.cases[Number(get('compareCase').value)];
+}
+function selectedKeys(){
+  const selected=get('compareView').value;
+  return selected==='both'?compareKeys:[selected];
+}
+function drawComparisonChart(visible,states,keys) {
+  const canvas=get('comparePlot');
+  const bounds=canvas.getBoundingClientRect();
+  if(!bounds.width || !bounds.height)return;
+  const width=bounds.width,height=bounds.height,dpr=window.devicePixelRatio||1;
+  canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);
+  const ctx=canvas.getContext('2d');ctx.scale(dpr,dpr);
+  const left=34,right=width-24,top=14,bottom=height-29;
+  const maxDepth=Math.max(5,Math.ceil(Math.max(...visible.map(p=>p[1]),0)/2)*2+1);
+  const x=t=>left+(right-left)*t/2100;
+  const y=d=>bottom-(bottom-top)*d/maxDepth;
+  function line(x1,y1,x2,y2,color,dash=[]){
+    ctx.beginPath();ctx.setLineDash(dash);ctx.strokeStyle=color;ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.stroke();ctx.setLineDash([]);
+  }
+  ctx.font='12px sans-serif';ctx.lineWidth=1;
+  ctx.fillStyle='#eff2ee';ctx.fillRect(x(compareSeconds),top,right-x(compareSeconds),bottom-top);
+  line(left,top,left,bottom,'#99adab');line(left,bottom,right,bottom,'#99adab');
+  ctx.fillStyle='#4c6465';ctx.textAlign='right';ctx.fillText('0',left-8,bottom+3);ctx.fillText('4',left-8,y(4)+4);
+  ctx.textAlign='left';ctx.fillText('英寸',0,top);
+  for (let tick=8;tick<maxDepth;tick+=4) {
+    line(left,y(tick),right,y(tick),'#d8e0dc',[2,4]);ctx.textAlign='right';
+    ctx.fillStyle='#4c6465';ctx.fillText(String(tick),left-8,y(tick)+4);
+  }
+  line(left,y(4),right,y(4),'#a64d30',[5,4]);
+  ctx.fillStyle='#a64d30';ctx.textAlign='right';ctx.fillText('升级阈值',right-4,y(4)-5);
+  ctx.textAlign='center';ctx.fillStyle='#4c6465';
+  for(const m of [0,5,10,20,35])ctx.fillText(m===35?'35 分':String(m),x(m*60),bottom+19);
+  ctx.lineWidth=2;ctx.strokeStyle='#193f45';ctx.beginPath();
+  visible.forEach(([t,d],i)=>i?ctx.lineTo(x(t),y(d)):ctx.moveTo(x(t),y(d)));ctx.stroke();
+  ctx.fillStyle='#193f45';for(const [t,d] of visible){ctx.beginPath();ctx.arc(x(t),y(d),2.6,0,2*Math.PI);ctx.fill();}
+  for(const [i,key] of keys.entries()){
+    const alarm=states[key].alarm;
+    if(alarm===null)continue;
+    const same=keys.length===2 && states[keys[0]].alarm===states[keys[1]].alarm;
+    const xx=x(alarm)+(same?(i===0?-1.5:1.5):0);
+    line(xx,top,xx,bottom,palette[key],i===0?[3,2]:[7,3]);
+    ctx.textAlign='left';ctx.fillStyle=palette[key];ctx.fillText((key==='2+3'?'早判':'晚判')+'发警',xx+3,top+10+(same?i*16:0));
+  }
+}
+function comparisonCard(key,state){
+  const first=experiment.models[key].schedule[0];
+  const panel=document.createElement('section');panel.style.setProperty('--tone',palette[key]);
+  const title=document.createElement('h3');title.textContent='第 '+first+' 分钟首判 · 第 '+(first+3)+' 分钟可复查';
+  const status=document.createElement('strong');
+  status.textContent=state.alarm!==null?'已在 '+timeMark(state.alarm)+' 发警':state.status;
+  panel.append(title,status);
+  const decisions=state.log.filter(e=>e.state!=='检出积水' && e.state!=='已实测达到 4 英寸');
+  if(!decisions.length){
+    const p=document.createElement('p');p.textContent=state.observed===null?'尚未到达本策略的首次决策时刻。':'实测已越线，提前告警机会已结束。';panel.append(p);
+  }
+  for(const e of decisions){
+    const text=document.createElement('p');text.textContent=timeMark(e.time)+'　'+e.state+'。'+e.reason;panel.append(text);
+  }
+  return panel;
+}
+function renderComparison(){
+  const row=currentComparison(),keys=selectedKeys();
+  const visible=row.points.filter(([t])=>t<=compareSeconds);
+  const states=Object.fromEntries(keys.map(k=>[k,detectEpisode(visible,compareSeconds,row.tidal,experiment.models[k])]));
+  const clock=timeMark(compareSeconds),last=visible.at(-1);
+  get('compareSlider').value=compareSeconds;get('compareSlider').setAttribute('aria-valuetext',clock);
+  get('compareTime').textContent='首湿后 '+clock;
+  get('compareLatest').textContent='非潮汐站 · 最近读数 '+last[1].toFixed(2)+' 英寸（'+timeMark(last[0])+'）';
+  get('compareCards').replaceChildren(...keys.map(k=>comparisonCard(k,states[k])));
+  drawComparisonChart(visible,states,keys);
+  const step=milestones.find(t=>t>compareSeconds);
+  get('compareStep').disabled=step===undefined;
+  get('compareStep').textContent=step===undefined?'已到窗末':'推进到第 '+step/60+' 分钟';
+  get('compareEnd').disabled=compareSeconds===2100;get('compareReset').disabled=!compareSeconds;
+  get('comparePacket').disabled=!row.points.some(([t])=>t>compareSeconds);
+  const crossing=visible.findIndex(([,d])=>d>=4);
+  const outcome=get('compareResult');
+  if(crossing>=0){
+    const low=visible[Math.max(0,crossing-1)][0];
+    const scores=keys.map(k=>{
+      const alarm=states[k].alarm;
+      const name=k==='2+3'?'早判':'晚判';
+      if(alarm===null)return name+'未提前告警';
+      const lead=Math.max(0,low-alarm);
+      return name+'保守提前 '+Number((lead/60).toFixed(2))+' 分钟（'+(lead>=300?'及时':'不足 5 分钟')+'）';
+    });
+    outcome.textContent='首次实测越线 '+timeMark(visible[crossing][0])+'。'+scores.join('，')+'。';
+  } else if(compareSeconds===2100){
+    outcome.textContent='观察窗内最高实测 '+Math.max(...visible.map(p=>p[1])).toFixed(2)+' 英寸，未升级。'+keys.map(k=>(k==='2+3'?'早判':'晚判')+(states[k].alarm===null?'正确未报':'为误报')).join('，')+'。';
+  }else{
+    outcome.textContent='截至 '+clock+' 尚未观测到 4 英寸。灰色区域为尚未揭晓的时间。';
+  }
+}
+function advanceComparison(to){
+  compareSeconds=Math.max(0,Math.min(2100,to));renderComparison();
+}
+experiment.cases.forEach((r,i)=>get('compareCase').add(new Option(r.date.slice(5)+' · '+r.site,i)));
+get('compareCase').onchange=()=>advanceComparison(0);
+get('compareView').onchange=renderComparison;
+get('compareSlider').oninput=e=>advanceComparison(Number(e.target.value));
+get('compareStep').onclick=()=>advanceComparison(milestones.find(t=>t>compareSeconds)??2100);
+get('comparePacket').onclick=()=>{
+  const next=currentComparison().points.find(([t])=>t>compareSeconds);
+  if(next)advanceComparison(next[0]);
+};
+get('compareReset').onclick=()=>advanceComparison(0);
+get('compareEnd').onclick=()=>advanceComparison(2100);
+get('v3').onclick=()=>{selectTab('comparison');renderComparison();};
+new ResizeObserver(()=>{if(!get('comparison').hidden)renderComparison();}).observe(get('comparePlot'));
+renderComparison();
 </script></body></html>

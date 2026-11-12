@@ -1,0 +1,9 @@
+period,group,minute,n,pos,eligible,reachable,reachable_and_eligible,no_second,crossed,stale_dry,blocks,positive_blocks
+main,all,2,985,296,923,167,167,13,47,2,18,12
+main,all,5,985,296,859,138,136,0,102,24,18,12
+main,non_tidal,2,429,148,382,50,50,5,40,2,14,10
+main,non_tidal,5,429,148,331,35,33,0,79,19,14,10
+prior,all,2,583,120,535,69,65,20,23,5,25,12
+prior,all,5,583,120,520,60,60,0,43,20,25,12
+prior,non_tidal,2,304,47,272,5,5,8,20,4,18,4
+prior,non_tidal,5,304,47,251,2,2,0,36,17,18,4

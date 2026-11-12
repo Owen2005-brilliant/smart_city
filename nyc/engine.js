@@ -2,6 +2,7 @@
 // The supplied clock may advance independently of packets. No later readings
 // participate in a scheduled decision, even when replay jumps several minutes.
 function detectEpisode(readings, now, tidal, model) {
+  const schedule = model.schedule || [5, 8];
   const wetDepth = 10 / 25.4;
   const seen = readings.filter(([s]) => s <= now);
   const wet = seen.find(([,d]) => d > wetDepth);
@@ -15,22 +16,23 @@ function detectEpisode(readings, now, tidal, model) {
   const event = (time,state,reason) => log.push({time,state,reason});
   event(start,'检出积水','首个水深超过 10 mm 的读数启动时钟。');
   for (const stage of [0,1]) {
-    const at=start+(stage===0?300:480);
+    const at=start+schedule[stage]*60;
     if(now<at || (crossed && crossed[0]<=at)) break;
     const past=active.filter(([s])=>s<=at);
     const last=past[past.length-1];
-    if (at-last[0]>180 || last[1]<=wetDepth || (stage===1 && last[0]<=start+300)) {
+    if (last[0]===start || at-last[0]>180 || last[1]<=wetDepth || (stage===1 && last[0]<=start+60*schedule[0])) {
       status='结束判断：读数不足或积水已退';
       event(at,status,'需要仍湿且最近 3 分钟内的有效观测；复查还需要首次决策之后的新读数。');
       break;
     }
     const elapsed=(last[0]-start)/60;
     const slope=elapsed>0?(last[1]-wet[1])/elapsed:0;
-    const horizon=stage===0?30:27;
+    const horizon=35-schedule[stage];
     const projection=last[1]+horizon*Math.max(0,slope);
     const p=model.params[stage], flag=Number(tidal);
     const trigger=(model.cutoffs[flag]-p.bias-p.tide*flag)/p.depth;
-    const fires=projection>=trigger;
+    const raw=p.bias+p.depth*projection+p.tide*flag;
+    const fires=model.precision===undefined ? projection>=trigger : Number(raw.toFixed(model.precision))>=model.cutoffs[flag];
     status=fires?'发出升级预警':stage===0?'暂缓，3 分钟后复查':'结束判断：未触发预警';
     event(at,status,'平均涨速 '+slope.toFixed(2)+' 英寸/分，按正涨速外推 '+horizon+' 分钟得 '+projection.toFixed(2)+' 英寸，本阶段评分等价的外推触发线为 '+trigger.toFixed(2)+' 英寸。');
     if(fires){alarm=at;break;}

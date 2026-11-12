@@ -1,0 +1,10 @@
+{
+  "scorable": 3064,
+  "excluded": {
+    "no_label_support": 517
+  },
+  "sources": {
+    "events.csv": "3e199d082a296f2e7c5ca23c4f4efcac988563ab1740ac5d3d62b85e8e3ad34e",
+    "sites.csv": "54e3d03adc7b001557f353fb111e877036628a1334703d5e64060f289c8a77e9"
+  }
+}

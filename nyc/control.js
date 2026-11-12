@@ -47,5 +47,5 @@ get('append').onclick=()=>{const t=get('stamp').valueAsNumber,d=get('depth').val
  if(!Number.isSafeInteger(t)||t<0||!Number.isFinite(d)||d<0||(input.length && t<=clockSec)||(wet && t>wet[0]+2100)){get('err').textContent='请输入非负水深和递增的整数秒数，且时间在本次观察窗内。';return;}
  input.push([t,d]);clockSec=t;get('stamp').value=t+60;get('err').textContent='';draw();};
 get('validation').textContent=Object.entries(modelData.stats).map(([k,m])=>k+'共 '+m.n+' 场，升级 '+m.pos+' 场，至少提前 5 分钟捕获 '+m.timely+' 场，未升级事件中误报 '+m.fp+' 场。').join(' ');
-function selectTab(id){['instrument','replay','summary'].forEach((n,i)=>{get(n).hidden=id!==n;get(['v2','v0','v1'][i]).setAttribute('aria-pressed',id===n);});}
-get('v2').onclick=()=>selectTab('instrument');get('v0').onclick=()=>selectTab('replay');get('v1').onclick=()=>selectTab('summary');selectTab('instrument');reset();
+function selectTab(id){['instrument','replay','summary','comparison'].forEach((n,i)=>{get(n).hidden=id!==n;get(['v2','v0','v1','v3'][i]).setAttribute('aria-pressed',id===n);});}
+get('v2').onclick=()=>selectTab('instrument');get('v0').onclick=()=>selectTab('replay');get('v1').onclick=()=>selectTab('summary');get('v3').onclick=()=>selectTab('comparison');selectTab(location.hash==='#compare'?'comparison':'instrument');reset();

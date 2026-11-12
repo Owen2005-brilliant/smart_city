@@ -8,6 +8,8 @@
 
 下载仓库并解压，用浏览器打开 [街道积水升级检测器](nyc/FloodNet-街道积水升级检测器.html)。支持真实站点回放和手动输入读数。首个湿读数后第 5 分钟首次判断，暂缓事件在第 8 分钟复查。
 
+点击「早判与晚判对照」可并排回放两套首判方案，逐时刻观察同一组水深读数和告警结果。两个案例分别展示提前 6 分钟的命中与一次早判误报。打开「运行检测器」可自行输入观测。[课堂操作与 5 分钟讲解顺序](中期演示与排练.md) · [首判实验口径及数据](nyc/first_look_README.md)
+
 ## 数据与来源
 
 | 目录 | 内容与归属 |
@@ -27,10 +29,11 @@
 | nyc | `python validate.py` | 重跑时序验证、区间覆盖与非潮汐站分析，生成回放输入 |
 | nyc | `python check_controls.py`、`python check_delay.py` | 比较强基线及等待 0–5 分钟的策略 |
 | nyc | `python build_model.py` | 导出冻结的模型参数、示例与浏览器一致性检查输入 |
+| nyc | `python first_look.py` | 比较首判时刻，重建 985 场主测试集及冻结参数至 result/compare.json，供同屏对照使用 |
 | nyc | `python presentation.py`、`python assemble.py` | 依次生成课堂回放和完整检测器（先运行 validate.py 与 build_model.py） |
 | external | `python audit_external.py` | 用归档的纽约模型与外地数据重跑验证；见本目录说明 |
 
-可选浏览器测试：在 nyc 目录运行 build_model.py 后，安装 playwright 并执行 `python -m playwright install chromium`，再运行 `python test_product.py`。已有 Chrome 可通过环境变量 PLAYWRIGHT_CHROMIUM_EXECUTABLE 指定可执行文件。
+可选浏览器测试：在 nyc 目录运行 build_model.py 后，安装 playwright 并执行 `python -m playwright install chromium`，再运行 `python test_product.py` 和 `python verify_compare.py`。已有 Chrome 可通过环境变量 PLAYWRIGHT_CHROMIUM_EXECUTABLE 指定可执行文件。
 
 ## 解读结果
 
