@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Tramore Trail",
+    "id": "430453089310601",
+    "threshold_ft": 2.5,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Tramore_Trail/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430453089310601/#dataTypeId=continuous-00065-0&period=P7D"
+  },
+  {
+    "name": "Sherman and Trailsway",
+    "id": "430734089215001",
+    "threshold_ft": 3,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Sherman_and_Trailsway/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430734089215001/#dataTypeId=continuous-00065-0&period=P7D"
+  },
+  {
+    "name": "N Franklin",
+    "id": "430446089225401",
+    "threshold_ft": 2.6,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/N_Franklin/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430446089225401/#dataTypeId=continuous-00065-0&period=P7D"
+  },
+  {
+    "name": "Eau Claire and Buffalo",
+    "id": "430412089274801",
+    "threshold_ft": 0.85,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Eau_Claire_and_Buffalo/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430412089274801/#dataTypeId=continuous-00065-0&period=P7D"
+  },
+  {
+    "name": "Johnson and Third",
+    "id": null,
+    "threshold_ft": 3.9,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Johnson_and_Third/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": ""
+  },
+  {
+    "name": "Johnson and Sixth",
+    "id": "430601089211401",
+    "threshold_ft": 3.8,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Johnson_and_Sixth/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/USGS-430601089211401/#dataTypeId=continuous-00065-0&period=P7D&showMedian=true&showFieldMeasurements=true"
+  },
+  {
+    "name": "Manitou Road",
+    "id": "430248089262001",
+    "threshold_ft": 2.6,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Manitou_Road/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430248089262001/#dataTypeId=continuous-00065-0&period=P7D"
+  },
+  {
+    "name": "Rose Place",
+    "id": "430433089270401",
+    "threshold_ft": 4,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Rose_Place/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430433089270401/#dataTypeId=continuous-00065-0&period=P7D"
+  },
+  {
+    "name": "Midvale and Vernon",
+    "id": "430411089270401",
+    "threshold_ft": 5.1,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Midvale_and_Vernon/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430411089270401/#dataTypeId=continuous-00065-0&period=P7D"
+  },
+  {
+    "name": "Atwood and Rusk",
+    "id": "430533089211001",
+    "threshold_ft": 3.6,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Atwood_and_Rusk/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430533089211001/#dataTypeId=continuous-00065-0&period=P7D"
+  },
+  {
+    "name": "Milward and Dearholt",
+    "id": "430251089280401",
+    "threshold_ft": 3.58,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/Milward_and_Dearholt/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430251089280401/#dataTypeId=continuous-00065-0&period=P7D"
+  },
+  {
+    "name": "N High Point",
+    "id": "430450089310901",
+    "threshold_ft": 4,
+    "meta": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/N_High_Point/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&returnGeometry=false",
+    "site_link": "https://waterdata.usgs.gov/monitoring-location/430450089310901/#dataTypeId=continuous-00065-0&period=P7D"
+  }
+]

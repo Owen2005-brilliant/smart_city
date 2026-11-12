@@ -1,0 +1,20 @@
+{
+  "main": {
+    "validation_non_tidal_timely": {
+      "ours": 0,
+      "EFAS_any": 0
+    },
+    "selected_non_tidal": "ours",
+    "teaser_stop5": 665,
+    "test_n": 859
+  },
+  "prior": {
+    "validation_non_tidal_timely": {
+      "ours": 1,
+      "EFAS_any": 1
+    },
+    "selected_non_tidal": "ours",
+    "teaser_stop5": 327,
+    "test_n": 520
+  }
+}

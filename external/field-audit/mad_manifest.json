@@ -1,0 +1,233 @@
+[
+  {
+    "site": "430453089310601",
+    "month": "2026-06",
+    "rows": 6812,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430453089310601&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "a693211c1b92f0a2dcddb54b9d769d9314a96263305f86066641d052cd06b695"
+  },
+  {
+    "site": "430453089310601",
+    "month": "2026-07",
+    "rows": 5465,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430453089310601&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "92c8f13c1c4cbab4f742851d983eeddeea1e093a5bc30c0cda107baa09572e4d"
+  },
+  {
+    "site": "430453089310601",
+    "month": "2026-08",
+    "rows": 6385,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430453089310601&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "68e6c3f1ceb0e59a28a385befebb5594e6bc3e0400facad4153061c57fe46dbd"
+  },
+  {
+    "site": "430734089215001",
+    "month": "2026-06",
+    "rows": 33847,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430734089215001&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "2a64e1e8a1afaab4b0df4c743bf0b48855eee17630014fb2a3bbd4576422ac51"
+  },
+  {
+    "site": "430734089215001",
+    "month": "2026-07",
+    "rows": 39360,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430734089215001&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "baf1f051b75d8981c6c068713aa9caa8e8e20e264cb91459fffcb0100acc9b96"
+  },
+  {
+    "site": "430734089215001",
+    "month": "2026-08",
+    "rows": 32551,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430734089215001&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "5ae7f997a409cfb94928767fdc20d95a765b0f575ce94d1358484a4f63d83848"
+  },
+  {
+    "site": "430446089225401",
+    "month": "2026-06",
+    "rows": 28669,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430446089225401&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "888e2f23502ef08cc69512c98f5f1d26fa138c54481a7f91ca82c8e91051901b"
+  },
+  {
+    "site": "430446089225401",
+    "month": "2026-07",
+    "rows": 42665,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430446089225401&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "aaa3f65199741c3b0085b1b71316a31de774f0a4988eba79467bb31cd50602d3"
+  },
+  {
+    "site": "430446089225401",
+    "month": "2026-08",
+    "rows": 19428,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430446089225401&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "08251e6e77eaf6b7bb3e6980d73e4e43875cdf6c604a79eb955624bcf1f6b4b7"
+  },
+  {
+    "site": "430412089274801",
+    "month": "2026-06",
+    "rows": 4961,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430412089274801&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "6124adaa00bfafa88234bd6bedafcffd20460b1deca63f10600bfd0f8d546c84"
+  },
+  {
+    "site": "430412089274801",
+    "month": "2026-07",
+    "rows": 5392,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430412089274801&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "1fe2b4f2599e6272d0e4ea51d04754f959e2efbf354b902d39037928f7cc870a"
+  },
+  {
+    "site": "430412089274801",
+    "month": "2026-08",
+    "rows": 6228,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430412089274801&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "e4c127c38f4f7b6f198c39415ede66b37aaf3c5dc20e5bf963c5785bf1972802"
+  },
+  {
+    "site": "430601089211401",
+    "month": "2026-06",
+    "rows": 24061,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430601089211401&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "bf43d780736620151c12cc5ea8b435cf5365ba3de2eff3c56e2af43d2855ee22"
+  },
+  {
+    "site": "430601089211401",
+    "month": "2026-07",
+    "rows": 8599,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430601089211401&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "2b3e4dd64185cfaa13c4fe31feb7026ef70d2370f34309b6bcb0d306d383bf15"
+  },
+  {
+    "site": "430601089211401",
+    "month": "2026-08",
+    "rows": 8664,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430601089211401&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "535753f48e4e93491ae9dc59872c06daea8071c58f4f981a4f76feae415e239b"
+  },
+  {
+    "site": "430248089262001",
+    "month": "2026-06",
+    "rows": 4858,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430248089262001&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "eb803caafbd5456cad6c5d3beab2a1189df82c871786ac56a7e6c5d08d8cbc95"
+  },
+  {
+    "site": "430248089262001",
+    "month": "2026-07",
+    "rows": 3436,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430248089262001&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "2c7b51d83680774607dd16b7ba06f8a018791d9001e17552a629a83b5b911faa"
+  },
+  {
+    "site": "430248089262001",
+    "month": "2026-08",
+    "rows": 4855,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430248089262001&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "78e403cf15ad820a7f454ba31a05dec0218c81bc5409c304aca3fd1a9a236a76"
+  },
+  {
+    "site": "430433089270401",
+    "month": "2026-06",
+    "rows": 27559,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430433089270401&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "71d8e4b4943242c84122f46dd34b130b6874121242503c58c6684031b0e956b1"
+  },
+  {
+    "site": "430433089270401",
+    "month": "2026-07",
+    "rows": 38936,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430433089270401&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "edae3a679da36d8e844f5342920a20e0c00d0189a17eaecda8e7864e347b473b"
+  },
+  {
+    "site": "430433089270401",
+    "month": "2026-08",
+    "rows": 39835,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430433089270401&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "e54205e220cbefbb3b5ac8abb09410479c008f509a295a73ab6ae0ba351bd015"
+  },
+  {
+    "site": "430411089270401",
+    "month": "2026-06",
+    "rows": 7687,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430411089270401&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "5162b90c80a0f19994bb4918bdb306081be19bb85d45cfc0b022b90f0f1ac254"
+  },
+  {
+    "site": "430411089270401",
+    "month": "2026-07",
+    "rows": 8000,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430411089270401&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "732c50840d31b2d8db0ffc4112136cae67e866c5a25a842af3a26101b026bc4f"
+  },
+  {
+    "site": "430411089270401",
+    "month": "2026-08",
+    "rows": 8169,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430411089270401&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "9ea709700cdc6349e0f9c4173569d07a64e8a90d11091d91e49a5d6132c9cc76"
+  },
+  {
+    "site": "430533089211001",
+    "month": "2026-06",
+    "rows": 8008,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430533089211001&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "d64fdba3153d948c2b2827c80aa1d2d29211cd1345d8ef625ffc99440d5f497a"
+  },
+  {
+    "site": "430533089211001",
+    "month": "2026-07",
+    "rows": 6166,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430533089211001&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "e2d79c721349188a4a0a78c78da301985acf2644b71f26fb165d8e57ed30297d"
+  },
+  {
+    "site": "430533089211001",
+    "month": "2026-08",
+    "rows": 5801,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430533089211001&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "a36413ec91d1b79f64a03ddb2a4d95cec497491cc1579f36f4a3e2dc6a980da1"
+  },
+  {
+    "site": "430251089280401",
+    "month": "2026-06",
+    "rows": 8454,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430251089280401&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "7c13c66e89746de6ae54cad9b6ca038722bd4c8ae99e3e9d363044a3a91fe8e4"
+  },
+  {
+    "site": "430251089280401",
+    "month": "2026-07",
+    "rows": 8671,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430251089280401&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "716b8875bc2ec956808e96c17a229edd4afa53a44a34a47ca8194a3380adc42b"
+  },
+  {
+    "site": "430251089280401",
+    "month": "2026-08",
+    "rows": 8745,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430251089280401&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "601c26b9fb2eda74b280fc2f4e40a37932f1c83bfdf2554c41c7c5358a123ad7"
+  },
+  {
+    "site": "430450089310901",
+    "month": "2026-06",
+    "rows": 16997,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430450089310901&parameter_code=00065&datetime=2026-06-01T00%3A00%3A00Z%2F2026-06-30T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "b2261c62eaa11968bba352d2d682013674c51f7932d20f6f29e59c535c171ead"
+  },
+  {
+    "site": "430450089310901",
+    "month": "2026-07",
+    "rows": 8674,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430450089310901&parameter_code=00065&datetime=2026-07-01T00%3A00%3A00Z%2F2026-07-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "2bd2b369817ff9f2310e3f5563e50f39bd56d5faf33bc7b932b015c6b4dad93b"
+  },
+  {
+    "site": "430450089310901",
+    "month": "2026-08",
+    "rows": 8162,
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?monitoring_location_id=USGS-430450089310901&parameter_code=00065&datetime=2026-08-01T00%3A00%3A00Z%2F2026-08-31T23%3A59%3A59Z&limit=10000&f=csv&properties=time%2Cvalue%2Cunit_of_measure%2Capproval_status%2Cqualifier",
+    "sha256": "5efb1271d77f94d1d7226b9d2e1252bc7a4d758527fbb1154828d9e46c14c5a8"
+  }
+]

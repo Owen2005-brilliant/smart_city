@@ -1,0 +1,23 @@
+{
+  "frozen": {
+    "n": 2,
+    "pos": 1,
+    "timely": 0,
+    "fp": 0,
+    "alarms": 1
+  },
+  "learned": {
+    "n": 2,
+    "pos": 1,
+    "timely": 0,
+    "fp": 0,
+    "alarms": 1
+  },
+  "relax_all": {
+    "n": 2,
+    "pos": 1,
+    "timely": 0,
+    "fp": 0,
+    "alarms": 1
+  }
+}

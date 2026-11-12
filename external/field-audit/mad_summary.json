@@ -1,0 +1,18 @@
+{
+  "sites": 11,
+  "sites_with_values": 11,
+  "raw": 496100,
+  "valid": 494196,
+  "counts": {
+    "crossed_by_first_look": 10,
+    "scored": 2,
+    "incomplete_future": 3,
+    "no_fresh_second_wet_reading": 5,
+    "dry_by_first_look": 1
+  },
+  "n": 2,
+  "pos": 1,
+  "reviews": 2,
+  "urgent": 0,
+  "close_zero": 2
+}

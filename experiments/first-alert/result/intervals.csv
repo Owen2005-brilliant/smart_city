@@ -1,0 +1,13 @@
+period,group,rule,blocks,used,low_pp,high_pp
+main,non_tidal,relax_all_non_tidal,14,1500,-3.26302729528536,5.555555555555555
+main,non_tidal,eta,14,1500,0.0,0.0
+main,non_tidal,learned,14,1500,-2.8571428571428577,5.555555555555555
+main,all,relax_all_non_tidal,18,1500,0.0,0.0
+main,all,eta,18,1500,0.0,0.0
+main,all,learned,18,1500,0.0,0.0
+prior,non_tidal,relax_all_non_tidal,18,961,0.0,0.0
+prior,non_tidal,eta,18,961,0.0,0.0
+prior,non_tidal,learned,18,961,0.0,0.0
+prior,all,relax_all_non_tidal,25,1500,0.0,0.0
+prior,all,eta,25,1500,0.0,0.0
+prior,all,learned,25,1500,0.0,0.0

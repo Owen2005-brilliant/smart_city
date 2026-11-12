@@ -1,0 +1,108 @@
+{
+  "files": 122,
+  "counts": {
+    "rows": 12815920,
+    "depth_rows": 8127310,
+    "explicit_road_rows": 4520215,
+    "duplicate_keys": 311
+  },
+  "stations": 389,
+  "streams": 389,
+  "month_streams": 775,
+  "wet_to_wet_interval_counts": [
+    [
+      600,
+      604
+    ],
+    [
+      300,
+      463
+    ],
+    [
+      120,
+      181
+    ],
+    [
+      100,
+      107
+    ],
+    [
+      60,
+      83
+    ],
+    [
+      601,
+      71
+    ],
+    [
+      540,
+      64
+    ],
+    [
+      599,
+      60
+    ],
+    [
+      121,
+      56
+    ],
+    [
+      140,
+      55
+    ]
+  ],
+  "events": 2605,
+  "reasons": {
+    "dry_by_first_look": 1645,
+    "no_fresh_second_wet_reading": 802,
+    "crossed_by_first_look": 62,
+    "scored": 80,
+    "incomplete_future": 16
+  },
+  "scored": {
+    "n": 80,
+    "positive": 3,
+    "urgent": 0,
+    "review_possible": 16
+  },
+  "recent_zero_5min": {
+    "n": 51,
+    "positive": 0,
+    "urgent": 0,
+    "review_possible": 8
+  },
+  "streams_with_4in": 53,
+  "recent_observation_5min": {
+    "n": 67,
+    "positive": 0,
+    "urgent": 0,
+    "review_possible": 8
+  },
+  "recent_zero_with_review": {
+    "n": 8,
+    "positive": 0,
+    "urgent": 0,
+    "review_possible": 8
+  },
+  "both_looks_possible": {
+    "n": 16,
+    "positive": 2,
+    "urgent": 0,
+    "review_possible": 16
+  },
+  "urgent_late": 0,
+  "monthly": {
+    "2023-08": {
+      "n": 43,
+      "positive": 2,
+      "urgent": 0,
+      "review_possible": 4
+    },
+    "2023-09": {
+      "n": 37,
+      "positive": 1,
+      "urgent": 0,
+      "review_possible": 12
+    }
+  }
+}

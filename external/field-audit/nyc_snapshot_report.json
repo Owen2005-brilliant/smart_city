@@ -1,0 +1,359 @@
+{
+  "status": "no_new_events",
+  "post_cutoff_new_keys": 0,
+  "feed_rows": 3581,
+  "audit_counts": {
+    "historical_same": 3581,
+    "old_keys_absent": 0
+  },
+  "latest_start_utc": "2026-10-26T14:43:29+00:00",
+  "metrics": {
+    "product": {
+      "deployed_5_8": {
+        "all": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "non_tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "new_deployment": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        }
+      },
+      "single_raw_extrapolation": {
+        "all": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "non_tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "new_deployment": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        }
+      }
+    },
+    "common": {
+      "deployed_5_8": {
+        "all": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "non_tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "new_deployment": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        }
+      },
+      "study_5_8": {
+        "all": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "non_tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "new_deployment": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        }
+      },
+      "study_2_5": {
+        "all": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "non_tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "new_deployment": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        }
+      },
+      "study_selective": {
+        "all": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "non_tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "new_deployment": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        }
+      },
+      "single_raw_extrapolation": {
+        "all": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "non_tidal": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        },
+        "new_deployment": {
+          "n": 0,
+          "positive": 0,
+          "negative": 0,
+          "timely": 0,
+          "late": 0,
+          "missed": 0,
+          "false_alarm": 0,
+          "timely_recall": null,
+          "event_fpr": null
+        }
+      }
+    }
+  },
+  "rule": "midterm-freeze-v1",
+  "eligible_start_utc": "2026-11-13T00:00:00+00:00",
+  "freeze_digest": "484fecdfc8a4bc629cc3b7d2eb5eef0073b1f43c80e15ec62e1a61552d149253",
+  "retrieved_utc": "2026-11-12T12:00:59.450100+00:00",
+  "source": "official",
+  "feed_version": {
+    "events": {
+      "dataset": "aq7i-eu5q",
+      "rows": 3581,
+      "rows_updated_at": 1793630957
+    },
+    "sites": {
+      "dataset": "kb2e-tjy3",
+      "rows": 492,
+      "rows_updated_at": 1793630982
+    }
+  },
+  "input_sha256": {
+    "events": "3e199d082a296f2e7c5ca23c4f4efcac988563ab1740ac5d3d62b85e8e3ad34e",
+    "sites": "54e3d03adc7b001557f353fb111e877036628a1334703d5e64060f289c8a77e9"
+  }
+}

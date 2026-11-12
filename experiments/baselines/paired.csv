@@ -1,0 +1,5 @@
+period,group,shared_hits,earlier,same,later,gained_timely,lost_timely
+main,all,90,0,69,21,15,0
+main,non_tidal,28,0,15,13,4,4
+prior,all,61,0,52,9,1,1
+prior,non_tidal,7,0,6,1,0,0

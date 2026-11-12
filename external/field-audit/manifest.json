@@ -1,0 +1,622 @@
+[
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210801.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210801.zip",
+    "sha256": "622ad405977d3324fc58b69a7c9f316cf9d3904eaf078021e40afbe65c2b0709"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210802.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210802.zip",
+    "sha256": "b23b7b9c0bf1709dc50dd4dcfec5c5ad662fc54282fd555b21295c21f98c8a80"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210803.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210803.zip",
+    "sha256": "3470b98233953a908f131b37b5f8fc4853e96677cb71b58819fae105ac7721c1"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210804.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210804.zip",
+    "sha256": "7598d9a48aab7f67a0b6314c331958930a22f560a0e6c9db05006f3d34cbf66c"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210805.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210805.zip",
+    "sha256": "60bc1a294214068e6185b649c6083940f8d4a6c827ee6ae9acb8c8a95e1f4070"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210806.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210806.zip",
+    "sha256": "2376c4856d656f211dba1f32b7eadac32581d8ff983b541ee289999d590de5c8"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210807.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210807.zip",
+    "sha256": "50cf75007df9f808781cee3ad30b8881d51489e8883952ba290f17e1abbde5f4"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210808.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210808.zip",
+    "sha256": "3b92ec518b011458eabd9132c5d68d20fb6b7abfde421aea28be5b36ca557840"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210809.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210809.zip",
+    "sha256": "727c8745962d4aeea96de17b58324b7db4017b402c15d44e65b20cad9d8064af"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210810.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210810.zip",
+    "sha256": "56ca292d09e8c5dfe26792a5c11a879d7e2644377cd4b20e2102384da448302e"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210811.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210811.zip",
+    "sha256": "27b3cc07bf469e9815c51cc62554078a47c36099116b5d2f2bc9e2269ec23ebb"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210812.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210812.zip",
+    "sha256": "7b0e130089550d236035749bf25d7a0fd9dbfe8ec0470489506d446132aa8888"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210813.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210813.zip",
+    "sha256": "2bd21919b58d159530ab26597f0443c73f383e729474320a527d939706f9c8fe"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210814.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210814.zip",
+    "sha256": "00ec02df52785cea96f4fbaeefb93baac7e84c54828722202d906db867706225"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210815.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210815.zip",
+    "sha256": "94152d58062ccf9a2bb68704ca9ad8694c40a5c2af981dee5965df71da757d2d"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210816.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210816.zip",
+    "sha256": "ac116ef25a7a2c2396db559cfac452a624059cdaccb98479777c6d2aee861e4b"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210817.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210817.zip",
+    "sha256": "70c5bd464447d8512b94d99aaa75de32fc7ba497cbec3bcd0da0dd43b818fb25"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210818.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210818.zip",
+    "sha256": "cd01ae4edc75771fa958db4db7387db6dfcf5159073ec2d132ba3e8625bc0a8b"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210819.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210819.zip",
+    "sha256": "fc112b01daeabab696fc093820bdf0c198407f17582a66abb339b492d3652c7e"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210820.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210820.zip",
+    "sha256": "e3027bbcda2beb2b1527a35941e58c0259fdc09510e011f2a45ce702e26d10e3"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210821.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210821.zip",
+    "sha256": "347bc718f20cceadd4cc6cb664f8ef532960fde025d9eae9e592fbdfa6310733"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210822.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210822.zip",
+    "sha256": "300865528d53f23d256f8d634916006ab6e2d6ba0fab79d243aac035365faa27"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210823.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210823.zip",
+    "sha256": "9cd2aa889bd8b49fea79e0d7bf2664409b77e742b6ac67f230c00ba23024d8bd"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210824.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210824.zip",
+    "sha256": "e0502b86a30218eaf79dc9004c1eaf3d7e48f25574ba649a70d56a7e88722814"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210825.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210825.zip",
+    "sha256": "760de9c770bf245d23e47a2b747577e2581dc28c6f88c64939154f83a9068875"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210826.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210826.zip",
+    "sha256": "aa9149798ad3f044cd11c46eda9a02a823737d515ce12491b89f01b62d0b8956"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210827.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210827.zip",
+    "sha256": "5ac6af4a9e17d36bd78364732ddbc7de4dc6b99c242c1620c94e97f94340445d"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210828.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210828.zip",
+    "sha256": "cb54d8d5a68de667e1a35170b5f0da7b0cd1b8734e7cf82384d69f3938744db9"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210829.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210829.zip",
+    "sha256": "6636853837bd779682708fddb7fb7e4f597a7850d046ce377bdfdf406f77f6f9"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210830.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210830.zip",
+    "sha256": "46702488d93ecfe488def2ffe72dca82e3389b9166fb445298b178eeb632dc86"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20210831.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210831.zip",
+    "sha256": "0570d9281194ddb13f6ea7bc918921ae0f6c21839a94abc4d1d0f21979920e2f"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210801.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210801.zip",
+    "sha256": "e298c009b90b56de08e567c37bace0193cd23ef856964c240ba366ac929aa497"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210802.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210802.zip",
+    "sha256": "772194db39297d547ce9f29120242735f5168c686d8196e11a165c7be360df25"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210803.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210803.zip",
+    "sha256": "ee5dccb554e4437eccf6d494c7525b15521f086c76ebf790327ee8cddc7fdc9e"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210804.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210804.zip",
+    "sha256": "33efabcc6dbd3c5e173b0b2d9be8c1c31fca1cabb15b3d3d46e6fd7f1fc1ed07"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210805.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210805.zip",
+    "sha256": "e9460e5086ad93dd3535a1e7446fed9f0a4284bddefbfe0485763451b8b93ce9"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210806.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210806.zip",
+    "sha256": "6c2df7c792c435dae6c13c65b325f809c96dc651d683c1c4e4f1927a30c46b0e"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210807.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210807.zip",
+    "sha256": "12defbd56c7706e05fca6eeb330ffef33de18163086428181054face27c5630a"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210808.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210808.zip",
+    "sha256": "3a79e10cd29f4b094a05daad938ceb83949039a685a8c66372b340cbd9ad2061"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210809.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210809.zip",
+    "sha256": "82176136723d83c8d43f01d2b45d8164af7d979ba3b57003d54809e9118eb25a"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210810.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210810.zip",
+    "sha256": "e5978b9c8be4356f710017f15f61fadff34afb627078392602f4a5ed7e42001b"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210811.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210811.zip",
+    "sha256": "6f4004462c48a15d66c6566b4c7769ab247a646dfc1ac1dca5055d3a6ca22ecb"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210812.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210812.zip",
+    "sha256": "14942b957583873ca5386707b212d22429e5c8da90e9df8623130e2d56ad538e"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210813.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210813.zip",
+    "sha256": "f31fa9eb1ee1426ed0a57f986cecbc2fafc34f7c6cadaaa33631e25ec15e23e5"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210814.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210814.zip",
+    "sha256": "6ff79f445ea1a0cfd3ce2f917fc20494e6697a1d6eb22d706c395ac4d771f2e5"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210815.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210815.zip",
+    "sha256": "63dae46abddce77043489109aaa00f1bc5cd98077a83522ad75436e9437e67ef"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210816.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210816.zip",
+    "sha256": "4344b9f77b07593e4ca73a94a9167f35df7d7c90674a45182dc96183c8f9a861"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210817.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210817.zip",
+    "sha256": "659de3174185b8c6ee2994bd5b9053056648d9583ba00c525d39321388118eae"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210818.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210818.zip",
+    "sha256": "20b91508d4299973118d5100c43200756ab08e1c767c11812836ec5383228f5a"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210819.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210819.zip",
+    "sha256": "7f2d23b6f34f0c0a48bb279190b784004ebfd8e10813c6dc3438edf9695d5026"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210820.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210820.zip",
+    "sha256": "b92e34cbd2d76e351516cd8bbe397d60a0b0b1ae10ac92c864b4a1a5832db988"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210821.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210821.zip",
+    "sha256": "03c0c555882bbc307b1488443695dffa8cccb9a1cccac32c9f4649d619b55a77"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210822.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210822.zip",
+    "sha256": "9afa4b8df6cb961bbb0d75616410039910ea07a3dc1b9e164c591290dd6c5ab9"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210823.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210823.zip",
+    "sha256": "3a07120bf6410f5f86cdc8ddaee21ee696ef1c3a8f6a65680f381ae105b15906"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210824.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210824.zip",
+    "sha256": "c2f583cf65c79c056b2bc81e618306af6753220f4dec845455cb884e5c74050e"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210825.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210825.zip",
+    "sha256": "fd6359ff552f327a3ee0b5f7bacb7bb1d78327d8df9181d3a5f39ad5efac94e6"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210826.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210826.zip",
+    "sha256": "80dec485b86efce2fdaae7edc6084d436c5cdfa042b9a40cad7fd14ba4980f6e"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210827.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210827.zip",
+    "sha256": "44ac8a3a85097484ef2102ecd5864319df3f3ad9d1a08d7ef4a7bac0eec35454"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210828.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210828.zip",
+    "sha256": "a02b4b95ece117cf1de37892bcafbe19c8be20a3b306ead7d563dd588b181c29"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210829.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210829.zip",
+    "sha256": "915e5660147419e71d5b659484d1a497dea56b5845483f6f31f1a263f37b71af"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210830.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210830.zip",
+    "sha256": "8a7d73541b7ebe9b4d7cfbfe25825ae4710eb4ffd768e4d5f752d41e0b4820f4"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20210831.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2021/202108/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20210831.zip",
+    "sha256": "6c685ce5b1677b6473079ce7f3841801b3bcf4ca727b6388c27483efe45314ae"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230701.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230701.zip",
+    "sha256": "073e2a69e9e5de4d860ce47732f0d39e306b3e35e33df98078acee6f1fdf3a5a"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230702.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230702.zip",
+    "sha256": "39770aa7596b089c532f5bf49dc4063fbc0aab8cf0e7a61b411169bd56556f61"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230703.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230703.zip",
+    "sha256": "e7b74f92f79bd06bdd35c3314c8463d69abbf007ea5bab86a387797def850b4f"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230704.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230704.zip",
+    "sha256": "50d034f5b148c936692d5743be17ef143d35ff326029058dad6e35c5318dbf3f"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230705.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230705.zip",
+    "sha256": "56769e46a51e0d065df05ccab68ba19d882af6eecd18c72652c9e686bc10b960"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230706.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230706.zip",
+    "sha256": "098baae8763fc0747d78d1c4475fb3718c16d08e0bef3fabddae38a1de4034d8"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230707.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230707.zip",
+    "sha256": "5a40272c2d84a14d4d92f688beea1f26c7a7b8580b85f520705cf2bdc702acf1"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230708.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230708.zip",
+    "sha256": "0ba515ea79d44811df7ea6d3c8986bc719bfd6700f6b211323cb769155ea0860"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230709.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230709.zip",
+    "sha256": "71cf6a6c19c67ba0c48eac0cd2d42f3a8cb26a4ccaa54f2ffc15d727306334f4"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230710.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230710.zip",
+    "sha256": "d1e70580cdbb5f4791f56db14be0eed11e3ad716d2b59b737fecd80bcfcb8318"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230711.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230711.zip",
+    "sha256": "3b56d0eb409d2c00cb8d36bafa45e8b1a880e2858d89f7ce8109c32c3f4980b9"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230712.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230712.zip",
+    "sha256": "e63961ff21c5fae7141da822ddd043d9740784ae5b14fc16fe7eb2ce793f8f0a"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230713.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230713.zip",
+    "sha256": "43c2877e75e098dbb6581a2a74234fcc13e31803f449d301d77a3cfb5525b199"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230714.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230714.zip",
+    "sha256": "d5e640a9484ad15f0a98866421d4d1e193865ea917649732c3ba49850e94650e"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230715.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230715.zip",
+    "sha256": "59076182896e53a4f367f7ad72ceb8056db1b524b60db94d872e1022d608b097"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230716.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230716.zip",
+    "sha256": "8feba95f11e4468d038b436f238741d6c8fab05c4f604cd67e0e60551ac5ab13"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230717.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230717.zip",
+    "sha256": "f35f71c700d5b5010aa5b1a228c84cffe9e3a0133d51c7e30a00ae7bab18928a"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230718.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230718.zip",
+    "sha256": "235645f09f9dbd7f7bb2d4dacaeaaff7cd38c14d94df95c3ce190e27c1088251"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230719.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230719.zip",
+    "sha256": "6215dd559b65380c8c944e3609c8742fc797642e22faf1c83d9d84383e674946"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230720.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230720.zip",
+    "sha256": "431537b12e76063ca60d3f0906ea28942412fe670f8ac0c197b044474c9d05e1"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230721.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230721.zip",
+    "sha256": "bc4c42070b99e4002460d6de136c04e8f231b25bf5b38dbfe4dfbc7bd3966807"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230722.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230722.zip",
+    "sha256": "d54347c7b0186d4ac12a1af4db792586dcd4840d3ae1c390ddafb117b77bea55"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230723.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230723.zip",
+    "sha256": "59dc20cfee59e44d3386acd685977fc3c0c1dfd6f09cd7add4e75d6b5bad260d"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230724.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230724.zip",
+    "sha256": "4fd4d49939fc154c366b0ea7a7d630f0c5af724d61b66d404dff916a0f94b5a3"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230725.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230725.zip",
+    "sha256": "ebc4101a8953056d2eec9c96632dd3f39b1a6534169aef5f86c8c31248ec1e14"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230726.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230726.zip",
+    "sha256": "6759f8bbd274bfa79a0ea2fc548eef77e874566168a2088862b9d9196c9fd1bc"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230727.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230727.zip",
+    "sha256": "e15da753fd058d4f196c872174192f248bd549d0b6b6d87788914e097ea46588"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230728.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230728.zip",
+    "sha256": "6ead4b5dc22e8559dbca448c09d106098c0d509482d4813e72be582274d68a28"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230729.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230729.zip",
+    "sha256": "1912794d2abbf68d3250c191de945703b5914111389944df3c8a233ebd8c991f"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230730.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230730.zip",
+    "sha256": "54514ae97335c63ce61f59c98a9c8621eec1210c4a02a0e3129bde0bb25ac1a4"
+  },
+  {
+    "file": "wra_iow_水利署_淹水感測器_20230731.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230731.zip",
+    "sha256": "0d0f316a42d4e5f1cbd089e894ff79d4e4062d179a1489c9deec34e1fc55cce5"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230701.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230701.zip",
+    "sha256": "9bccf98169afe610fb3e6057c760fc8b9b689e7626759414b4e22e49a9069214"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230702.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230702.zip",
+    "sha256": "44bda84fb4581ffe60b3799c96fff72d7697fbce125bb77185f1a7a6806bb0ae"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230703.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230703.zip",
+    "sha256": "49b9898cc07ae416fd907e4841b59db0940564694b3b5b77483263c082f112c1"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230704.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230704.zip",
+    "sha256": "a094479b7570b5a8f1987195ee468354763cc504980a3d82e082237aa326a9cb"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230705.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230705.zip",
+    "sha256": "c756e630ed5861ab630a83bb2ab5dc3386d1b8bbb1931575ef53ae21c849e84f"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230706.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230706.zip",
+    "sha256": "1f44a40911f953d4c073cebb2f284c7be77d77c808720e611e04fb77c239b0af"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230707.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230707.zip",
+    "sha256": "c52d58dc8ad4d581e57de865392b96e9f5a64bba94f6d6d1b62e4bb2cb79df08"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230708.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230708.zip",
+    "sha256": "52c561d280d2e13f76b5792580c4f85492c6f7027752b447b85def03ac058cd1"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230709.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230709.zip",
+    "sha256": "2ed45e2127108318ea339ec27e855aa805fd0f131bfc83992412c1e490bd7b81"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230710.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230710.zip",
+    "sha256": "493269964f03c2d81a4234d760b7fdf462c840822b0155bb2f6007a6e6822284"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230711.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230711.zip",
+    "sha256": "37fb04703610c182f0a409a7ed47a6fbaa3e7dc94c8eccac323bd167d4766b97"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230712.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230712.zip",
+    "sha256": "148ad5e7cb07f4c24d86b346245308b77b23ff833fc094e99eddcc4cd4749016"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230713.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230713.zip",
+    "sha256": "a0b920c13e7cd31e6727f1080463f61a3ae820a4ed1b0bdb9283ab75219fb067"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230714.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230714.zip",
+    "sha256": "94e1116c2878b0d63f414d369f526cb2f0fccc1bd1d0607d6abd82d8319b42f4"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230715.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230715.zip",
+    "sha256": "9ddd959b3824b176c43f8f16e547a3b1f660614e9aa229324ab06c1f1c71d396"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230716.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230716.zip",
+    "sha256": "84aa579df9d90ef57138344089cb69379a94c8e77a5a1432ffac824e80fb0d57"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230717.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230717.zip",
+    "sha256": "e2fc6a04fe50c4f835fde01e3b8b43789076846d4bc5d120bc2e8597ac8d79ab"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230718.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230718.zip",
+    "sha256": "bb601612ec613f93a1a2c5e7f04eed0e5109ca454ed54a9a5fc97fb382dccc7d"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230719.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230719.zip",
+    "sha256": "bfbbe152920dc51596e402b5a7d99f534138a2ef70609dbac3dedf5903d20a93"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230720.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230720.zip",
+    "sha256": "4522e6f100e06a9427f638508dd5e8101404937b952f0ee9ea4740dd5ea7d5be"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230721.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230721.zip",
+    "sha256": "724fdc24de48cb086377ca15b0f327cca453fd583d856269fb59cf0a7c5eefd8"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230722.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230722.zip",
+    "sha256": "14ddf9fb8cd060c181b78c45213bd9bae186e0a14fd947c7995727d099bc0506"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230723.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230723.zip",
+    "sha256": "ae4fdf8dfd4fc4c9f4a4001f8478f5e630f3f14fa2b95292ca4d73c7585f17f0"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230724.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230724.zip",
+    "sha256": "a0e00ea2ad5df96fb180ca2acd3cd2f8a8610dd7b5980dd0039218ee4772f46d"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230725.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230725.zip",
+    "sha256": "4f80b3637e4a7e62eb6956c11472eab79d341f5460aca324fd67fd8f370d0a95"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230726.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230726.zip",
+    "sha256": "8cf928a5a2e704d1b9c9e155319d9f3f011f852897499dcca4427331d090104a"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230727.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230727.zip",
+    "sha256": "3dd5d11473e3ebf655aa4d53f1d0ef9ad7294a8570488f2ebada08aac7c279ab"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230728.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230728.zip",
+    "sha256": "0e0433c4db7f3d6e5759598caade180920c5017de29fa9ce364a578402306967"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230729.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230729.zip",
+    "sha256": "e14cac011e3790d34c373a9f9c1d05bdc40efc43100882ca0b4d56c8acca397d"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230730.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230730.zip",
+    "sha256": "a6c2f37b15e5b9561685369c46106f0635d711d8d411660c53ee68395ea08d1b"
+  },
+  {
+    "file": "wra_iow_水利署（與縣市政府合建）_淹水感測器_20230731.zip",
+    "url": "https://raw.githubusercontent.com/cjw612/Flood_Analysis/12c9c16280ee79419550de354343e7d9b5ddf686/Data/raw_data/2023/202307/wra_iow_%E6%B0%B4%E5%88%A9%E7%BD%B2%EF%BC%88%E8%88%87%E7%B8%A3%E5%B8%82%E6%94%BF%E5%BA%9C%E5%90%88%E5%BB%BA%EF%BC%89_%E6%B7%B9%E6%B0%B4%E6%84%9F%E6%B8%AC%E5%99%A8_20230731.zip",
+    "sha256": "df48cad7b33a699ceb124c275aeb8bd2289a1bf755bd8fd74ce6e907e3f83b2a"
+  }
+]

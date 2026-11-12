@@ -1,0 +1,9 @@
+period,rule,train_urgent,train_non_tidal_urgent,cal_non_tidal_neg,test_non_tidal_urgent,gate_non_tidal,gate_non_tidal_urgent
+main,original,70,1,95,12,0,0
+main,relax_all_non_tidal,70,1,95,12,331,12
+main,eta,70,1,95,12,23,1
+main,learned,70,1,95,12,39,5
+prior,original,62,1,25,2,0,0
+prior,relax_all_non_tidal,62,1,25,2,251,2
+prior,eta,62,1,25,2,8,0
+prior,learned,62,1,25,2,32,0
