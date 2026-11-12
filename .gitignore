@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+nyc/oracle.json
+nyc/replay_all.json
+nyc/replay_non_tidal.json
+nyc/product-preview.png
+nyc/oct20.csv
+nyc/sep21.csv
+external/flood.npy

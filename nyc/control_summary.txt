@@ -1,0 +1,26 @@
+2026-07-01 all crossing interval 859 859
+matched & frozen [83, 66] [96, 121]
+matched & frozen [79, 66] [96, 127]
+solo [68, 66] bootstrap simple2-simple1 and rich-simple2 [[ 0.01851709 -0.0398688 ]
+ [ 0.12713617  0.01639569]]
+leave-1-block -0.02617801047120419 0.005263157894736842
+2026-07-01 non crossing interval 331 331
+matched & frozen [10, 26] [14, 47]
+matched & frozen [10, 26] [15, 45]
+leave-1-block 0.0 0.03636363636363636
+2026-07-01 tidal crossing interval 528 528
+matched & frozen [69, 40] [82, 71]
+matched & frozen [67, 40] [81, 70]
+leave-1-block -0.04310344827586207 -0.016
+2026-01-01 all crossing interval 297 520
+matched & frozen [54, 44] [35, 7]
+matched & frozen [54, 44] [37, 7]
+leave-1-block -0.06493506493506493 0.0
+2026-01-01 non crossing interval 100 251
+matched & frozen [0, 24] [0, 4]
+matched & frozen [0, 24] [0, 3]
+leave-1-block 0.0 0.0
+2026-01-01 tidal crossing interval 197 269
+matched & frozen [43, 20] [29, 5]
+matched & frozen [46, 20] [31, 6]
+leave-1-block -0.061224489795918366 0.08571428571428572

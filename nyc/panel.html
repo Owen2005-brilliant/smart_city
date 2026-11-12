@@ -1,0 +1,6 @@
+<section id="instrument"><article><h2>输入读数，运行检测</h2><div class="controls"><select id="mode" aria-label="输入来源"></select><span id="sitedata"></span></div>
+<div id="custom" hidden><label>站点属性 <select id="tide"><option value="0">非潮汐站</option><option value="1">潮汐影响站</option></select></label><div class="controls"><label>经过秒数 <input id="stamp" type="number" min="0" step="1" value="0"></label><label>水深（英寸） <input id="depth" type="number" min="0" step=".01" value="0.5"></label><button id="append">录入一条读数</button></div></div>
+<div class="controls"><button id="packet">下一条实测读数</button><button id="nextstage">推进到下一决策时刻</button><button id="finish">回放至窗末</button><button id="clearRun">重新开始</button></div><div role="alert" id="err"></div>
+<div class="grid"><div class="cell">运行时间 · 分钟:秒<b id="clockText"></b></div><div class="cell">检测状态<b id="signal" aria-live="polite"></b></div></div>
+<canvas id="chart" width="1000" height="220" aria-label="已接收的水深与4英寸实测阈值"></canvas><p id="sampleInfo"></p><h3>决策记录</h3><div id="decisions"></div>
+</article><details><summary>算法与回测口径</summary><p>超过 10 mm 开始计时。第 5 和第 8 分钟以首个湿读数和最新读数计算正涨速外推值，再结合站点潮汐属性评分。两次判断使用同一个结束时刻。外推触发线是训练得到的评分规则；4 英寸是用来核实是否真的升级的实测阈值。</p><p id="validation"></p><p>以 2025 年 7 月前事件训练，在 2026 年上半年按站点类型分别锁定门槛，同分读数采取相同决策。测试覆盖 2026 年 7 至 10 月的可评分积水事件。自填数据仅用于单次积水过程演示。</p></details></section>

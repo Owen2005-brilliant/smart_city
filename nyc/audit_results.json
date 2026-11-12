@@ -1,0 +1,789 @@
+{
+  "events": 3581,
+  "sites": 492,
+  "event_sites": 319,
+  "matched_rows": 3581,
+  "oldest": "2020-11-16 01:41:17",
+  "latest_start": "2026-10-26 14:43:29",
+  "latest_end": "2026-10-26 18:05:50",
+  "year": {
+    "2020": 2,
+    "2021": 58,
+    "2022": 142,
+    "2023": 362,
+    "2024": 662,
+    "2025": 682,
+    "2026": 1673
+  },
+  "most_frequent": [
+    [
+      "Q-beach-84-st-0me680",
+      500
+    ],
+    [
+      "BX-ditmars-st-hunter-ave-1kwrk0",
+      408
+    ],
+    [
+      "Q-russell-st-1-07zqc0",
+      157
+    ],
+    [
+      "Q-brookville-blvd-rockaway-blvd-1-23ndo0",
+      138
+    ],
+    [
+      "Q-beach-84th-st-beach-channel-dr-2nf0xc",
+      137
+    ]
+  ],
+  "tide_sites": {
+    "No": 425,
+    "Yes": 67
+  },
+  "tide_events": {
+    "Yes": 2426,
+    "No": 1155
+  },
+  "quantiles": {
+    "first_profile_peak_min": [
+      0.0,
+      6.3,
+      14.767,
+      37.867,
+      80.167,
+      119.0,
+      2429.95
+    ],
+    "points": [
+      4.0,
+      16.0,
+      34.0,
+      77.0,
+      153.0,
+      244.0,
+      4466.0
+    ],
+    "duration_min": [
+      5.0,
+      19.99,
+      48.43,
+      112.0,
+      188.0,
+      286.8,
+      4542.91
+    ],
+    "first_official_peak_min": [
+      0.0,
+      6.15,
+      14.74,
+      37.19,
+      80.05,
+      119.0,
+      1619496.5
+    ],
+    "peak_inches": [
+      0.43,
+      0.91,
+      1.65,
+      3.46,
+      6.46,
+      10.98,
+      46.14
+    ]
+  },
+  "n_points": 447055,
+  "n_gaps": 443474,
+  "gap_seconds": [
+    0.0,
+    60.0,
+    60.0,
+    62.0,
+    63.0,
+    64.0,
+    22184.0
+  ],
+  "gap_gt120": 31633,
+  "gap_gt300": 6795,
+  "prefix_points": {
+    "5": [
+      0.0,
+      1.0,
+      4.0,
+      5.0,
+      6.0,
+      6.0,
+      11.0
+    ],
+    "10": [
+      0.0,
+      3.0,
+      8.0,
+      10.0,
+      11.0,
+      11.0,
+      21.0
+    ],
+    "15": [
+      0.0,
+      4.0,
+      11.0,
+      14.0,
+      16.0,
+      16.0,
+      31.0
+    ]
+  },
+  "first_threshold_min": {
+    "4": [
+      0.0,
+      5.0,
+      11.0,
+      23.0,
+      44.0,
+      68.843,
+      1179.983
+    ],
+    "12": [
+      0.0,
+      8.0,
+      18.946,
+      57.492,
+      80.896,
+      102.063,
+      781.9
+    ],
+    "24": [
+      5.25,
+      10.038,
+      15.663,
+      39.975,
+      95.333,
+      154.215,
+      425.65
+    ]
+  },
+  "at_risk_n_positive_by_threshold": {
+    "4": [
+      [
+        983,
+        422
+      ],
+      [
+        409,
+        95
+      ],
+      [
+        520,
+        77
+      ],
+      [
+        859,
+        192
+      ]
+    ],
+    "12": [
+      [
+        1017,
+        18
+      ],
+      [
+        459,
+        15
+      ],
+      [
+        556,
+        14
+      ],
+      [
+        951,
+        29
+      ]
+    ],
+    "24": [
+      [
+        1018,
+        2
+      ],
+      [
+        461,
+        0
+      ],
+      [
+        562,
+        6
+      ],
+      [
+        961,
+        9
+      ]
+    ]
+  },
+  "invalid_peak_examples": [
+    {
+      "site": "BK-hoyt-st-5th-st-007sk0",
+      "start": "2023-09-29 07:23:34",
+      "duration": 812.31,
+      "official_peak_min": 1619496.5,
+      "profile_peak_min": 298.43333333333334
+    }
+  ],
+  "flags": {
+    "before_deployment_calendar_date": 2,
+    "peak_depth_diff_over_0.01": 52,
+    "first_argmax_time_diff_over_1min": 38,
+    "nonzero_first_offset": 50,
+    "end_diff_over_2s": 47,
+    "repeated_timestamp": 1,
+    "official_peak_by_5min": 286,
+    "official_peak_by_10min": 655,
+    "official_peak_by_15min": 930,
+    "any_gap_over_5min": 922
+  },
+  "risks": {
+    "4": {
+      "official": 1589,
+      "profile": 1593,
+      "disagree": 4,
+      "tidal_yes": 1232
+    },
+    "12": {
+      "official": 291,
+      "profile": 292,
+      "disagree": 1,
+      "tidal_yes": 207
+    },
+    "24": {
+      "official": 42,
+      "profile": 42,
+      "disagree": 0,
+      "tidal_yes": 19
+    }
+  },
+  "n_blocks": 219,
+  "selection": {
+    "issuable_below_4in": 3072,
+    "stale_or_no_longer_wet": 267,
+    "future_insufficient": 301,
+    "already_at_4in": 242
+  },
+  "neighbor_support": {
+    "all": {
+      "1": {
+        "n": 2771,
+        "with_wet_neighbor": 943
+      },
+      "3": {
+        "n": 2771,
+        "with_wet_neighbor": 1172
+      }
+    },
+    "test": {
+      "1": {
+        "n": 859,
+        "with_wet_neighbor": 285
+      },
+      "3": {
+        "n": 859,
+        "with_wet_neighbor": 401
+      }
+    },
+    "test_nontidal": {
+      "1": {
+        "n": 331,
+        "with_wet_neighbor": 90
+      },
+      "3": {
+        "n": 331,
+        "with_wet_neighbor": 152
+      }
+    }
+  },
+  "splits": [
+    {
+      "n": 983,
+      "pos": 422,
+      "pos12": 9,
+      "blocks": 126,
+      "pos_blocks": 67,
+      "sites": 69
+    },
+    {
+      "n": 409,
+      "pos": 95,
+      "pos12": 2,
+      "blocks": 23,
+      "pos_blocks": 12,
+      "sites": 110
+    },
+    {
+      "n": 520,
+      "pos": 77,
+      "pos12": 2,
+      "blocks": 25,
+      "pos_blocks": 9,
+      "sites": 157
+    },
+    {
+      "n": 859,
+      "pos": 192,
+      "pos12": 8,
+      "blocks": 18,
+      "pos_blocks": 12,
+      "sites": 175
+    }
+  ],
+  "classification": {
+    "training_rate": {
+      "n": 859,
+      "pos": 192,
+      "AP": 0.22351571594877764,
+      "Brier": 0.21590281673504833
+    },
+    "depth_only": {
+      "n": 859,
+      "pos": 192,
+      "AP": 0.5073556376774327,
+      "Brier": 0.15054666862310626
+    },
+    "linear_extrapolation_score": {
+      "n": 859,
+      "pos": 192,
+      "AP": 0.5563626542359861,
+      "Brier": 0.1414153895891452
+    },
+    "all_features_uncal": {
+      "n": 859,
+      "pos": 192,
+      "AP": 0.5666604672819456,
+      "Brier": 0.13572691836628192
+    },
+    "all_features_platt": {
+      "n": 859,
+      "pos": 192,
+      "AP": 0.5666604672819456,
+      "Brier": 0.13632564906648265
+    }
+  },
+  "subgroups": {
+    "tidal": {
+      "n": 528,
+      "pos": 125,
+      "AP": 0.6148137564310676,
+      "Brier": 0.13266912960213104
+    },
+    "nontidal": {
+      "n": 331,
+      "pos": 67,
+      "AP": 0.5754669958188321,
+      "Brier": 0.14215840519088643
+    },
+    "new_to_training": {
+      "n": 461,
+      "pos": 92,
+      "AP": 0.5286927692358091,
+      "Brier": 0.13653805155306983
+    }
+  },
+  "nontidal_training_ablation": {
+    "splits": [
+      {
+        "n": 120,
+        "pos": 20
+      },
+      {
+        "n": 122,
+        "pos": 27
+      },
+      {
+        "n": 251,
+        "pos": 11
+      },
+      {
+        "n": 331,
+        "pos": 67
+      }
+    ],
+    "nontidal_only": {
+      "n": 331,
+      "pos": 67,
+      "AP": 0.5758304787277517,
+      "Brier": 0.1390501638928516
+    },
+    "depth_only": {
+      "n": 331,
+      "pos": 67,
+      "AP": 0.522441524539468,
+      "Brier": 0.14493777817340567
+    },
+    "extrapolation": {
+      "n": 331,
+      "pos": 67,
+      "AP": 0.567813629943179,
+      "Brier": 0.14374002368625005
+    },
+    "pooled": {
+      "n": 331,
+      "pos": 67,
+      "AP": 0.5754669958188321,
+      "Brier": 0.14215840519088643
+    }
+  },
+  "alarm": {
+    "tp": 109,
+    "fp": 76,
+    "precision": 0.5891891891891892,
+    "recall": 0.5677083333333334,
+    "FPR": 0.11394302848575712,
+    "lead_median": 9.0,
+    "conservative_lead_median": 8.0,
+    "conservative_lead_at_least_5min_recall": 0.3645833333333333
+  },
+  "bootstrap_AP_vs_depth_Brier_gain_vs_depth_AP_vs_extrapolation": [
+    [
+      -0.09655432772098,
+      -0.013436056996819074,
+      -0.11889154459413685
+    ],
+    [
+      0.05492052120800883,
+      0.013911292604342772,
+      0.010339374608076046
+    ],
+    [
+      0.14420766624097547,
+      0.039485480507642105,
+      0.0767766678318082
+    ]
+  ],
+  "intervals": {
+    "one_reading": {
+      "raw": {
+        "all": {
+          "n": 859,
+          "coverage": 0.8067520372526193,
+          "width": 5.150675781424292,
+          "interval_score": 7.8706183016534075
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.7069486404833837,
+          "width": 5.689441776708087,
+          "interval_score": 10.399004887916044
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.8693181818181818,
+          "width": 4.812926644229336,
+          "interval_score": 6.285588074280428
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.796875,
+          "width": 6.669398846520764,
+          "interval_score": 15.972129876581377
+        }
+      },
+      "pooled": {
+        "all": {
+          "n": 859,
+          "coverage": 0.8975552968568102,
+          "width": 5.39168683082377,
+          "interval_score": 7.7721403951132615
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8308157099697885,
+          "width": 5.930452826107566,
+          "interval_score": 10.089526971056113
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.9393939393939394,
+          "width": 5.053937693628814,
+          "interval_score": 6.319384795421814
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.8020833333333334,
+          "width": 6.910409895920243,
+          "interval_score": 15.727330814631026
+        }
+      },
+      "tide_strata": {
+        "all": {
+          "n": 859,
+          "coverage": 0.89988358556461,
+          "width": 5.43759244473773,
+          "interval_score": 7.794891618761561
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8217522658610272,
+          "width": 5.927184982512795,
+          "interval_score": 10.092083984624226
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.9488636363636364,
+          "width": 5.130669850034044,
+          "interval_score": 6.35479564698023
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.8020833333333334,
+          "width": 6.959225385658805,
+          "interval_score": 15.690947244817572
+        }
+      },
+      "risk_strata": {
+        "all": {
+          "n": 859,
+          "coverage": 0.9150174621653085,
+          "width": 5.596810543169207,
+          "interval_score": 7.796188145033667
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8670694864048338,
+          "width": 6.255454371551177,
+          "interval_score": 10.090149239516276
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.9450757575757576,
+          "width": 5.1839107189373275,
+          "interval_score": 6.358117837697032
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.8125,
+          "width": 7.34028689516698,
+          "interval_score": 15.587264489178699
+        }
+      }
+    },
+    "one_plus_static_age": {
+      "raw": {
+        "all": {
+          "n": 859,
+          "coverage": 0.7508731082654249,
+          "width": 3.867425853804117,
+          "interval_score": 9.214114403232351
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8006042296072508,
+          "width": 4.203416915538002,
+          "interval_score": 11.043471104911601
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.7196969696969697,
+          "width": 3.65679509351261,
+          "interval_score": 8.06730177395994
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.5729166666666666,
+          "width": 4.468371956667508,
+          "interval_score": 24.668654811092228
+        }
+      },
+      "pooled": {
+        "all": {
+          "n": 859,
+          "coverage": 0.8544819557625145,
+          "width": 4.42221441168886,
+          "interval_score": 8.73585692863892
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8610271903323263,
+          "width": 4.758205473422745,
+          "interval_score": 10.715703014656532
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.8503787878787878,
+          "width": 4.211583651397353,
+          "interval_score": 7.494703416381667
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.59375,
+          "width": 5.023160514552251,
+          "interval_score": 22.88967182852672
+        }
+      },
+      "tide_strata": {
+        "all": {
+          "n": 859,
+          "coverage": 0.8579743888242142,
+          "width": 4.595740095664243,
+          "interval_score": 8.755764512456386
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8036253776435045,
+          "width": 4.223882829913135,
+          "interval_score": 11.023482033985648
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.8920454545454546,
+          "width": 4.828855161883215,
+          "interval_score": 7.334146141952248
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.6197916666666666,
+          "width": 5.2396273738570125,
+          "interval_score": 22.15147657886851
+        }
+      },
+      "risk_strata": {
+        "all": {
+          "n": 859,
+          "coverage": 0.860302677532014,
+          "width": 4.656411732169656,
+          "interval_score": 8.815689679504047
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8610271903323263,
+          "width": 4.9028397006355995,
+          "interval_score": 10.83169056401999
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.8598484848484849,
+          "width": 4.501927532241196,
+          "interval_score": 7.551870943188181
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.609375,
+          "width": 5.565254416057132,
+          "interval_score": 22.91829379759695
+        }
+      }
+    },
+    "two_readings": {
+      "raw": {
+        "all": {
+          "n": 859,
+          "coverage": 0.7962747380675204,
+          "width": 3.9885465067576056,
+          "interval_score": 8.880831023898203
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8398791540785498,
+          "width": 4.495085592923781,
+          "interval_score": 10.677590547772605
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.7689393939393939,
+          "width": 3.671000223573886,
+          "interval_score": 7.754453367833
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.609375,
+          "width": 4.827437481696054,
+          "interval_score": 23.785674262296084
+        }
+      },
+      "pooled": {
+        "all": {
+          "n": 859,
+          "coverage": 0.8754365541327125,
+          "width": 4.485547059347219,
+          "interval_score": 8.594398699412087
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8851963746223565,
+          "width": 4.992086145513395,
+          "interval_score": 10.500364306770111
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.8693181818181818,
+          "width": 4.1680007761635,
+          "interval_score": 7.399560411466056
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.6510416666666666,
+          "width": 5.324438034285667,
+          "interval_score": 22.45176899778026
+        }
+      },
+      "tide_strata": {
+        "all": {
+          "n": 859,
+          "coverage": 0.8812572759022119,
+          "width": 4.718867471948318,
+          "interval_score": 8.632279618813916
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8398791540785498,
+          "width": 4.495085592923781,
+          "interval_score": 10.677590547772605
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.9071969696969697,
+          "width": 4.859154975654989,
+          "interval_score": 7.350086593273526
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.671875,
+          "width": 5.601593356674947,
+          "interval_score": 21.73885265747791
+        }
+      },
+      "risk_strata": {
+        "all": {
+          "n": 859,
+          "coverage": 0.8766006984866124,
+          "width": 4.5223919457281045,
+          "interval_score": 8.599731516750852
+        },
+        "non_tidal": {
+          "n": 331,
+          "coverage": 0.8851963746223565,
+          "width": 5.049652446970626,
+          "interval_score": 10.528659607486373
+        },
+        "tidal": {
+          "n": 528,
+          "coverage": 0.8712121212121212,
+          "width": 4.191855533017358,
+          "interval_score": 7.390498187142028
+        },
+        "depth_ge_4": {
+          "n": 192,
+          "coverage": 0.6510416666666666,
+          "width": 5.418633740836801,
+          "interval_score": 22.461861394910738
+        }
+      }
+    }
+  },
+  "persistence_interval": {
+    "n": 859,
+    "coverage": 0.8591385331781141,
+    "width": 4.592572759022119,
+    "interval_score": 11.437043073341096
+  },
+  "hashes": {
+    "events.csv": "3e199d082a296f2e7c5ca23c4f4efcac988563ab1740ac5d3d62b85e8e3ad34e",
+    "sites.csv": "54e3d03adc7b001557f353fb111e877036628a1334703d5e64060f289c8a77e9"
+  }
+}

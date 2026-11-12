@@ -1,0 +1,72 @@
+{
+  "Beaufort": {
+    "valid_rows": 14769,
+    "median_gap_sec": 359.0,
+    "first_utc": "2021-06-22T13:18:51+00:00",
+    "last_utc": "2021-11-29T23:38:47+00:00",
+    "over_4in_rows": 227,
+    "peak_inches": 15.219645008797801,
+    "raw_rows": 14770,
+    "selection": {
+      "already_crossed": 2,
+      "scored": 9,
+      "stale_or_dry": 5
+    },
+    "n": 9,
+    "pos": 5,
+    "fp": 0,
+    "timely": 3,
+    "review_available": 1,
+    "early_alarms": 3,
+    "later_alarms": 0,
+    "timely_first": 3,
+    "TP": 3
+  },
+  "Madison": {
+    "valid_rows": 140695,
+    "median_gap_sec": 300.0,
+    "first_utc": "2025-04-17T18:27:22+00:00",
+    "last_utc": "2026-10-31T23:59:38+00:00",
+    "over_4in_rows": 136,
+    "peak_inches": 25.200000000000003,
+    "raw_rows": 145885,
+    "selection": {
+      "already_crossed": 8,
+      "stale_or_dry": 1
+    },
+    "n": 0,
+    "pos": 0,
+    "fp": 0,
+    "timely": 0,
+    "review_available": 0,
+    "early_alarms": 0,
+    "later_alarms": 0,
+    "timely_first": 0,
+    "TP": 0
+  },
+  "Shenzhen": {
+    "scenario": "test/flood/location2/G1166_intensity_246",
+    "n_cells": 625,
+    "sample_shape": [
+      360,
+      1,
+      500,
+      500
+    ],
+    "selection": {
+      "never_wet": 525,
+      "stale_or_dry": 14,
+      "scored": 78,
+      "already_crossed": 8
+    },
+    "n": 78,
+    "pos": 12,
+    "fp": 16,
+    "timely": 2,
+    "review_available": 63,
+    "early_alarms": 12,
+    "later_alarms": 15,
+    "timely_first": 1,
+    "TP": 11
+  }
+}

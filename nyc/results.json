@@ -1,0 +1,4824 @@
+{
+  "main": {
+    "all": {
+      "reachable": 136,
+      "intervals": {
+        "global": {
+          "n": 859,
+          "pos": 192,
+          "covered_pos": 122,
+          "overall": 0.8533178114086146,
+          "positive": 0.6354166666666666,
+          "width": 4.3025663289116425,
+          "interval_score": 8.664406739329722,
+          "upper_misses": 70
+        },
+        "tail": {
+          "n": 859,
+          "pos": 192,
+          "covered_pos": 163,
+          "overall": 0.9161816065192084,
+          "positive": 0.8489583333333334,
+          "width": 6.5715153605975605,
+          "interval_score": 8.439833922569438,
+          "upper_misses": 29
+        },
+        "uniform_width": {
+          "n": 859,
+          "pos": 192,
+          "covered_pos": 167,
+          "overall": 0.9208381839348079,
+          "positive": 0.8697916666666666,
+          "width": 6.615827740351821,
+          "interval_score": 8.371295315737195,
+          "upper_misses": 25
+        },
+        "positive_pooled": {
+          "n": 859,
+          "pos": 192,
+          "covered_pos": 161,
+          "overall": 0.9138533178114087,
+          "positive": 0.8385416666666666,
+          "width": 6.350108129818414,
+          "interval_score": 8.279074182941063,
+          "upper_misses": 31
+        },
+        "one": {
+          "n": 859,
+          "pos": 192,
+          "covered_pos": 153,
+          "overall": 0.8533178114086146,
+          "positive": 0.796875,
+          "width": 5.240160690054474,
+          "interval_score": 7.808526127683662,
+          "upper_misses": 39
+        },
+        "slope": {
+          "n": 859,
+          "pos": 192,
+          "covered_pos": 148,
+          "overall": 0.9313154831199069,
+          "positive": 0.7708333333333334,
+          "width": 7.005033262199006,
+          "interval_score": 10.161626689132357,
+          "upper_misses": 32
+        }
+      },
+      "policies": {
+        "slope": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 13,
+            "recall": 0.06770833333333333,
+            "fpr": 0.049475262368815595,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 38,
+            "recall": 0.19791666666666666,
+            "fpr": 0.09895052473763119,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 54,
+            "recall": 0.28125,
+            "fpr": 0.14992503748125938,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 124,
+            "timely": 74,
+            "recall": 0.3854166666666667,
+            "fpr": 0.18590704647676162,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_recheck": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 13,
+            "recall": 0.06770833333333333,
+            "fpr": 0.049475262368815595,
+            "held": 775,
+            "rechecked": 735,
+            "late_alarms": 3
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 43,
+            "recall": 0.22395833333333334,
+            "fpr": 0.09895052473763119,
+            "held": 712,
+            "rechecked": 673,
+            "late_alarms": 16
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 57,
+            "recall": 0.296875,
+            "fpr": 0.14992503748125938,
+            "held": 662,
+            "rechecked": 624,
+            "late_alarms": 11
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 127,
+            "timely": 82,
+            "recall": 0.4270833333333333,
+            "fpr": 0.1904047976011994,
+            "held": 616,
+            "rechecked": 579,
+            "late_alarms": 17
+          }
+        },
+        "timely_now": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 44,
+            "recall": 0.22916666666666666,
+            "fpr": 0.049475262368815595,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 67,
+            "recall": 0.3489583333333333,
+            "fpr": 0.09895052473763119,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 83,
+            "recall": 0.4322916666666667,
+            "fpr": 0.14992503748125938,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 139,
+            "timely": 90,
+            "recall": 0.46875,
+            "fpr": 0.20839580209895053,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "timely_recheck": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 48,
+            "recall": 0.25,
+            "fpr": 0.049475262368815595,
+            "held": 766,
+            "rechecked": 712,
+            "late_alarms": 13
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 72,
+            "recall": 0.375,
+            "fpr": 0.09895052473763119,
+            "held": 706,
+            "rechecked": 657,
+            "late_alarms": 16
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 86,
+            "recall": 0.4479166666666667,
+            "fpr": 0.14992503748125938,
+            "held": 648,
+            "rechecked": 602,
+            "late_alarms": 14
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 141,
+            "timely": 92,
+            "recall": 0.4791666666666667,
+            "fpr": 0.21139430284857572,
+            "held": 601,
+            "rechecked": 556,
+            "late_alarms": 16
+          }
+        },
+        "rise_uniform_wait": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 17,
+            "recall": 0.08854166666666667,
+            "fpr": 0.049475262368815595,
+            "held": 820,
+            "rechecked": 774,
+            "late_alarms": 68
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 54,
+            "recall": 0.28125,
+            "fpr": 0.09895052473763119,
+            "held": 757,
+            "rechecked": 717,
+            "late_alarms": 74
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 84,
+            "recall": 0.4375,
+            "fpr": 0.14992503748125938,
+            "held": 710,
+            "rechecked": 672,
+            "late_alarms": 90
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 128,
+            "timely": 93,
+            "recall": 0.484375,
+            "fpr": 0.191904047976012,
+            "held": 669,
+            "rechecked": 631,
+            "late_alarms": 84
+          }
+        },
+        "ordinary_now": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 36,
+            "recall": 0.1875,
+            "fpr": 0.049475262368815595,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 64,
+            "recall": 0.3333333333333333,
+            "fpr": 0.09895052473763119,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 83,
+            "recall": 0.4322916666666667,
+            "fpr": 0.14992503748125938,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 133,
+            "timely": 95,
+            "recall": 0.4947916666666667,
+            "fpr": 0.19940029985007496,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_plus_tide": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 44,
+            "recall": 0.22916666666666666,
+            "fpr": 0.049475262368815595,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 68,
+            "recall": 0.3541666666666667,
+            "fpr": 0.09895052473763119,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 85,
+            "recall": 0.4427083333333333,
+            "fpr": 0.14992503748125938,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 136,
+            "timely": 90,
+            "recall": 0.46875,
+            "fpr": 0.20389805097451275,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "uniform_wait": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 61,
+            "recall": 0.3177083333333333,
+            "fpr": 0.049475262368815595,
+            "held": 788,
+            "rechecked": 734,
+            "late_alarms": 50
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 79,
+            "recall": 0.4114583333333333,
+            "fpr": 0.09895052473763119,
+            "held": 737,
+            "rechecked": 686,
+            "late_alarms": 57
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 91,
+            "recall": 0.4739583333333333,
+            "fpr": 0.14992503748125938,
+            "held": 693,
+            "rechecked": 646,
+            "late_alarms": 66
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 127,
+            "timely": 96,
+            "recall": 0.5,
+            "fpr": 0.1904047976011994,
+            "held": 656,
+            "rechecked": 610,
+            "late_alarms": 65
+          }
+        },
+        "wait_global": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 62,
+            "recall": 0.3229166666666667,
+            "fpr": 0.049475262368815595,
+            "held": 584,
+            "rechecked": 537,
+            "late_alarms": 51
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 79,
+            "recall": 0.4114583333333333,
+            "fpr": 0.09895052473763119,
+            "held": 539,
+            "rechecked": 494,
+            "late_alarms": 55
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 87,
+            "recall": 0.453125,
+            "fpr": 0.14992503748125938,
+            "held": 505,
+            "rechecked": 463,
+            "late_alarms": 49
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 109,
+            "timely": 91,
+            "recall": 0.4739583333333333,
+            "fpr": 0.1634182908545727,
+            "held": 495,
+            "rechecked": 455,
+            "late_alarms": 52
+          }
+        },
+        "wait_tail": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 61,
+            "recall": 0.3177083333333333,
+            "fpr": 0.049475262368815595,
+            "held": 788,
+            "rechecked": 734,
+            "late_alarms": 50
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 79,
+            "recall": 0.4114583333333333,
+            "fpr": 0.09895052473763119,
+            "held": 737,
+            "rechecked": 686,
+            "late_alarms": 57
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 91,
+            "recall": 0.4739583333333333,
+            "fpr": 0.14992503748125938,
+            "held": 693,
+            "rechecked": 646,
+            "late_alarms": 66
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 127,
+            "timely": 96,
+            "recall": 0.5,
+            "fpr": 0.1904047976011994,
+            "held": 656,
+            "rechecked": 610,
+            "late_alarms": 65
+          }
+        },
+        "wait_uniform_width": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 61,
+            "recall": 0.3177083333333333,
+            "fpr": 0.049475262368815595,
+            "held": 788,
+            "rechecked": 734,
+            "late_alarms": 50
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 79,
+            "recall": 0.4114583333333333,
+            "fpr": 0.09895052473763119,
+            "held": 737,
+            "rechecked": 686,
+            "late_alarms": 57
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 91,
+            "recall": 0.4739583333333333,
+            "fpr": 0.14992503748125938,
+            "held": 693,
+            "rechecked": 646,
+            "late_alarms": 66
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 127,
+            "timely": 96,
+            "recall": 0.5,
+            "fpr": 0.1904047976011994,
+            "held": 656,
+            "rechecked": 610,
+            "late_alarms": 65
+          }
+        },
+        "upper_global": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 12,
+            "recall": 0.0625,
+            "fpr": 0.049475262368815595,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 43,
+            "recall": 0.22395833333333334,
+            "fpr": 0.09895052473763119,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 49,
+            "recall": 0.2552083333333333,
+            "fpr": 0.14992503748125938,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 130,
+            "timely": 53,
+            "recall": 0.2760416666666667,
+            "fpr": 0.19490254872563717,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "upper_tail": {
+          "0.05": {
+            "n": 859,
+            "pos": 192,
+            "fp": 33,
+            "timely": 12,
+            "recall": 0.0625,
+            "fpr": 0.049475262368815595,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 859,
+            "pos": 192,
+            "fp": 66,
+            "timely": 43,
+            "recall": 0.22395833333333334,
+            "fpr": 0.09895052473763119,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 859,
+            "pos": 192,
+            "fp": 100,
+            "timely": 49,
+            "recall": 0.2552083333333333,
+            "fpr": 0.14992503748125938,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 859,
+            "pos": 192,
+            "fp": 130,
+            "timely": 53,
+            "recall": 0.2760416666666667,
+            "fpr": 0.19490254872563717,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        }
+      },
+      "blocks": 18,
+      "positive_blocks": 12,
+      "fold_sizes": [
+        983,
+        409,
+        520,
+        859
+      ],
+      "ci95": {
+        "wait_tail minus slope": [
+          0.026136747802569294,
+          0.3409306674338318
+        ],
+        "wait_tail minus slope_recheck": [
+          0.021733286582515207,
+          0.3251617947792614
+        ],
+        "wait_tail minus timely_recheck": [
+          0.0,
+          0.07563523039547565
+        ],
+        "wait_tail minus uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "wait_tail minus ordinary_now": [
+          -0.014089537223340021,
+          0.16396829697872897
+        ],
+        "wait_tail minus slope_plus_tide": [
+          0.015305148777068095,
+          0.10715023612750882
+        ],
+        "wait_tail minus rise_uniform_wait": [
+          -0.04762474367737526,
+          0.2450564783165989
+        ],
+        "timely_now minus slope": [
+          0.0,
+          0.27389868167678855
+        ],
+        "timely_now minus slope_recheck": [
+          -0.011736842105263155,
+          0.25533427447816875
+        ],
+        "timely_now minus timely_recheck": [
+          -0.06666666666666665,
+          0.010058062332387272
+        ],
+        "timely_now minus uniform_wait": [
+          -0.11704933117874136,
+          -0.015142185400806129
+        ],
+        "timely_now minus ordinary_now": [
+          -0.04902362584378013,
+          0.08571789321789322
+        ],
+        "timely_now minus slope_plus_tide": [
+          -0.04444940476190472,
+          0.020481334224693015
+        ],
+        "timely_now minus rise_uniform_wait": [
+          -0.08614110318678343,
+          0.16949336772291818
+        ],
+        "timely_recheck minus slope": [
+          0.020263513513513527,
+          0.30305823209049
+        ],
+        "timely_recheck minus slope_recheck": [
+          0.015110565110565126,
+          0.28578296703296663
+        ],
+        "timely_recheck minus timely_recheck": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus uniform_wait": [
+          -0.07563523039547568,
+          0.0
+        ],
+        "timely_recheck minus ordinary_now": [
+          -0.031131444552529183,
+          0.11430467762326157
+        ],
+        "timely_recheck minus slope_plus_tide": [
+          -0.01449539828625834,
+          0.0645219308424228
+        ],
+        "timely_recheck minus rise_uniform_wait": [
+          -0.0686333215921099,
+          0.19239583333333285
+        ],
+        "upper_tail minus slope": [
+          -0.07576581027667986,
+          0.0386520332066976
+        ],
+        "upper_tail minus slope_recheck": [
+          -0.073811067622371,
+          0.024999999999999994
+        ],
+        "upper_tail minus timely_recheck": [
+          -0.3128023902740573,
+          -0.01754004576659041
+        ],
+        "upper_tail minus uniform_wait": [
+          -0.35173712883904684,
+          -0.024382897443432326
+        ],
+        "upper_tail minus ordinary_now": [
+          -0.2391325660699062,
+          -0.009488966318234796
+        ],
+        "upper_tail minus slope_plus_tide": [
+          -0.28453722334004017,
+          0.006143932754362173
+        ],
+        "upper_tail minus rise_uniform_wait": [
+          -0.22450255102040814,
+          -0.012797619047619183
+        ],
+        "tail coverage minus global": [
+          0.1172371740958789,
+          0.2787315450441979
+        ],
+        "tail coverage minus uniform_width": [
+          -0.05714285714285705,
+          0.012123059866962264
+        ],
+        "tail coverage minus one": [
+          0.022459562909001165,
+          0.06666666666666665
+        ],
+        "tail coverage minus slope": [
+          0.03643973214285718,
+          0.14608239700374526
+        ]
+      }
+    },
+    "non_tidal": {
+      "reachable": 33,
+      "intervals": {
+        "global": {
+          "n": 331,
+          "pos": 67,
+          "covered_pos": 45,
+          "overall": 0.8700906344410876,
+          "positive": 0.6716417910447762,
+          "width": 4.809105415077818,
+          "interval_score": 10.545780041339318,
+          "upper_misses": 22
+        },
+        "tail": {
+          "n": 331,
+          "pos": 67,
+          "covered_pos": 53,
+          "overall": 0.9003021148036254,
+          "positive": 0.7910447761194029,
+          "width": 7.202572977841606,
+          "interval_score": 10.417969778123476,
+          "upper_misses": 14
+        },
+        "uniform_width": {
+          "n": 331,
+          "pos": 67,
+          "covered_pos": 54,
+          "overall": 0.9033232628398792,
+          "positive": 0.8059701492537313,
+          "width": 7.122366826517997,
+          "interval_score": 10.266965573339844,
+          "upper_misses": 13
+        },
+        "positive_pooled": {
+          "n": 331,
+          "pos": 67,
+          "covered_pos": 51,
+          "overall": 0.8942598187311178,
+          "positive": 0.7611940298507462,
+          "width": 6.856647215984589,
+          "interval_score": 10.229434333180397,
+          "upper_misses": 16
+        },
+        "one": {
+          "n": 331,
+          "pos": 67,
+          "covered_pos": 51,
+          "overall": 0.7583081570996979,
+          "positive": 0.7611940298507462,
+          "width": 5.778926685338271,
+          "interval_score": 10.247237147948711,
+          "upper_misses": 16
+        },
+        "slope": {
+          "n": 331,
+          "pos": 67,
+          "covered_pos": 43,
+          "overall": 0.9063444108761329,
+          "positive": 0.6417910447761194,
+          "width": 7.825770551235695,
+          "interval_score": 13.318425913737377,
+          "upper_misses": 15
+        }
+      },
+      "policies": {
+        "slope": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 8,
+            "recall": 0.11940298507462686,
+            "fpr": 0.04924242424242424,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 10,
+            "recall": 0.14925373134328357,
+            "fpr": 0.09848484848484848,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 15,
+            "recall": 0.22388059701492538,
+            "fpr": 0.14772727272727273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 56,
+            "timely": 17,
+            "recall": 0.2537313432835821,
+            "fpr": 0.21212121212121213,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_recheck": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 7,
+            "recall": 0.1044776119402985,
+            "fpr": 0.04924242424242424,
+            "held": 294,
+            "rechecked": 257,
+            "late_alarms": 2
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 10,
+            "recall": 0.14925373134328357,
+            "fpr": 0.09848484848484848,
+            "held": 274,
+            "rechecked": 238,
+            "late_alarms": 1
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 15,
+            "recall": 0.22388059701492538,
+            "fpr": 0.14772727272727273,
+            "held": 254,
+            "rechecked": 219,
+            "late_alarms": 5
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 54,
+            "timely": 16,
+            "recall": 0.23880597014925373,
+            "fpr": 0.20454545454545456,
+            "held": 239,
+            "rechecked": 205,
+            "late_alarms": 7
+          }
+        },
+        "timely_now": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 7,
+            "recall": 0.1044776119402985,
+            "fpr": 0.04924242424242424,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 10,
+            "recall": 0.14925373134328357,
+            "fpr": 0.09848484848484848,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 14,
+            "recall": 0.208955223880597,
+            "fpr": 0.14772727272727273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 57,
+            "timely": 16,
+            "recall": 0.23880597014925373,
+            "fpr": 0.2159090909090909,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "timely_recheck": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 3,
+            "recall": 0.04477611940298507,
+            "fpr": 0.04924242424242424,
+            "held": 311,
+            "rechecked": 271,
+            "late_alarms": 19
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 12,
+            "recall": 0.1791044776119403,
+            "fpr": 0.09848484848484848,
+            "held": 293,
+            "rechecked": 256,
+            "late_alarms": 27
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 14,
+            "recall": 0.208955223880597,
+            "fpr": 0.14772727272727273,
+            "held": 268,
+            "rechecked": 232,
+            "late_alarms": 19
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 46,
+            "timely": 15,
+            "recall": 0.22388059701492538,
+            "fpr": 0.17424242424242425,
+            "held": 262,
+            "rechecked": 226,
+            "late_alarms": 21
+          }
+        },
+        "rise_uniform_wait": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 7,
+            "recall": 0.1044776119402985,
+            "fpr": 0.04924242424242424,
+            "held": 315,
+            "rechecked": 274,
+            "late_alarms": 29
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 11,
+            "recall": 0.16417910447761194,
+            "fpr": 0.09848484848484848,
+            "held": 299,
+            "rechecked": 262,
+            "late_alarms": 34
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 14,
+            "recall": 0.208955223880597,
+            "fpr": 0.14772727272727273,
+            "held": 273,
+            "rechecked": 237,
+            "late_alarms": 24
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 46,
+            "timely": 15,
+            "recall": 0.22388059701492538,
+            "fpr": 0.17424242424242425,
+            "held": 262,
+            "rechecked": 226,
+            "late_alarms": 21
+          }
+        },
+        "ordinary_now": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 7,
+            "recall": 0.1044776119402985,
+            "fpr": 0.04924242424242424,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 10,
+            "recall": 0.14925373134328357,
+            "fpr": 0.09848484848484848,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 14,
+            "recall": 0.208955223880597,
+            "fpr": 0.14772727272727273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 58,
+            "timely": 16,
+            "recall": 0.23880597014925373,
+            "fpr": 0.2196969696969697,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_plus_tide": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 8,
+            "recall": 0.11940298507462686,
+            "fpr": 0.04924242424242424,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 10,
+            "recall": 0.14925373134328357,
+            "fpr": 0.09848484848484848,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 15,
+            "recall": 0.22388059701492538,
+            "fpr": 0.14772727272727273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 56,
+            "timely": 17,
+            "recall": 0.2537313432835821,
+            "fpr": 0.21212121212121213,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "uniform_wait": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 1,
+            "recall": 0.014925373134328358,
+            "fpr": 0.04924242424242424,
+            "held": 318,
+            "rechecked": 277,
+            "late_alarms": 26
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 10,
+            "recall": 0.14925373134328357,
+            "fpr": 0.09848484848484848,
+            "held": 305,
+            "rechecked": 267,
+            "late_alarms": 38
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 13,
+            "recall": 0.19402985074626866,
+            "fpr": 0.14772727272727273,
+            "held": 283,
+            "rechecked": 246,
+            "late_alarms": 34
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 45,
+            "timely": 15,
+            "recall": 0.22388059701492538,
+            "fpr": 0.17045454545454544,
+            "held": 274,
+            "rechecked": 238,
+            "late_alarms": 33
+          }
+        },
+        "wait_global": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 1,
+            "recall": 0.014925373134328358,
+            "fpr": 0.04924242424242424,
+            "held": 253,
+            "rechecked": 219,
+            "late_alarms": 26
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 10,
+            "recall": 0.14925373134328357,
+            "fpr": 0.09848484848484848,
+            "held": 240,
+            "rechecked": 209,
+            "late_alarms": 38
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 13,
+            "recall": 0.19402985074626866,
+            "fpr": 0.14772727272727273,
+            "held": 217,
+            "rechecked": 187,
+            "late_alarms": 33
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 44,
+            "timely": 15,
+            "recall": 0.22388059701492538,
+            "fpr": 0.16666666666666666,
+            "held": 209,
+            "rechecked": 180,
+            "late_alarms": 32
+          }
+        },
+        "wait_tail": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 1,
+            "recall": 0.014925373134328358,
+            "fpr": 0.04924242424242424,
+            "held": 318,
+            "rechecked": 277,
+            "late_alarms": 26
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 10,
+            "recall": 0.14925373134328357,
+            "fpr": 0.09848484848484848,
+            "held": 305,
+            "rechecked": 267,
+            "late_alarms": 38
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 13,
+            "recall": 0.19402985074626866,
+            "fpr": 0.14772727272727273,
+            "held": 283,
+            "rechecked": 246,
+            "late_alarms": 34
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 45,
+            "timely": 15,
+            "recall": 0.22388059701492538,
+            "fpr": 0.17045454545454544,
+            "held": 274,
+            "rechecked": 238,
+            "late_alarms": 33
+          }
+        },
+        "wait_uniform_width": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 1,
+            "recall": 0.014925373134328358,
+            "fpr": 0.04924242424242424,
+            "held": 318,
+            "rechecked": 277,
+            "late_alarms": 26
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 10,
+            "recall": 0.14925373134328357,
+            "fpr": 0.09848484848484848,
+            "held": 305,
+            "rechecked": 267,
+            "late_alarms": 38
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 13,
+            "recall": 0.19402985074626866,
+            "fpr": 0.14772727272727273,
+            "held": 283,
+            "rechecked": 246,
+            "late_alarms": 34
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 45,
+            "timely": 15,
+            "recall": 0.22388059701492538,
+            "fpr": 0.17045454545454544,
+            "held": 274,
+            "rechecked": 238,
+            "late_alarms": 33
+          }
+        },
+        "upper_global": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 4,
+            "recall": 0.05970149253731343,
+            "fpr": 0.04924242424242424,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 9,
+            "recall": 0.13432835820895522,
+            "fpr": 0.09848484848484848,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 14,
+            "recall": 0.208955223880597,
+            "fpr": 0.14772727272727273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 61,
+            "timely": 16,
+            "recall": 0.23880597014925373,
+            "fpr": 0.23106060606060605,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "upper_tail": {
+          "0.05": {
+            "n": 331,
+            "pos": 67,
+            "fp": 13,
+            "timely": 4,
+            "recall": 0.05970149253731343,
+            "fpr": 0.04924242424242424,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 331,
+            "pos": 67,
+            "fp": 26,
+            "timely": 9,
+            "recall": 0.13432835820895522,
+            "fpr": 0.09848484848484848,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 331,
+            "pos": 67,
+            "fp": 39,
+            "timely": 14,
+            "recall": 0.208955223880597,
+            "fpr": 0.14772727272727273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 331,
+            "pos": 67,
+            "fp": 61,
+            "timely": 16,
+            "recall": 0.23880597014925373,
+            "fpr": 0.23106060606060605,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        }
+      },
+      "blocks": 14,
+      "positive_blocks": 9,
+      "fold_sizes": [
+        120,
+        122,
+        251,
+        331
+      ],
+      "ci95": {
+        "wait_tail minus slope": [
+          -0.123463153875525,
+          0.11323450134770877
+        ],
+        "wait_tail minus slope_recheck": [
+          -0.12295924096114977,
+          0.10714285714285714
+        ],
+        "wait_tail minus timely_recheck": [
+          -0.05661725067385446,
+          0.036363636363636376
+        ],
+        "wait_tail minus uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "wait_tail minus ordinary_now": [
+          -0.11904761904761904,
+          0.12903225806451613
+        ],
+        "wait_tail minus slope_plus_tide": [
+          -0.123463153875525,
+          0.11323450134770877
+        ],
+        "wait_tail minus rise_uniform_wait": [
+          -0.09523809523809523,
+          0.05263157894736842
+        ],
+        "timely_now minus slope": [
+          -0.05769230769230768,
+          0.020429874077290366
+        ],
+        "timely_now minus slope_recheck": [
+          -0.08782894736842105,
+          0.020898437499999655
+        ],
+        "timely_now minus timely_recheck": [
+          -0.13793103448275862,
+          0.0958904109589041
+        ],
+        "timely_now minus uniform_wait": [
+          -0.12822580645161288,
+          0.11907142857142844
+        ],
+        "timely_now minus ordinary_now": [
+          -0.016400273224043707,
+          0.040020408163265186
+        ],
+        "timely_now minus slope_plus_tide": [
+          -0.05769230769230768,
+          0.020429874077290366
+        ],
+        "timely_now minus rise_uniform_wait": [
+          -0.12822580645161288,
+          0.04545454545454544
+        ],
+        "timely_recheck minus slope": [
+          -0.10002100840336135,
+          0.125
+        ],
+        "timely_recheck minus slope_recheck": [
+          -0.09758673995190656,
+          0.11770588235294087
+        ],
+        "timely_recheck minus timely_recheck": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus uniform_wait": [
+          -0.036363636363636376,
+          0.05661725067385439
+        ],
+        "timely_recheck minus ordinary_now": [
+          -0.09525440313111545,
+          0.1389880952380947
+        ],
+        "timely_recheck minus slope_plus_tide": [
+          -0.10002100840336135,
+          0.125
+        ],
+        "timely_recheck minus rise_uniform_wait": [
+          -0.07231679009616448,
+          0.06025009127418761
+        ],
+        "upper_tail minus slope": [
+          -0.09434599694033656,
+          0.05555555555555555
+        ],
+        "upper_tail minus slope_recheck": [
+          -0.10258620689655172,
+          0.043960084033613435
+        ],
+        "upper_tail minus timely_recheck": [
+          -0.1698343304187759,
+          0.044117647058823525
+        ],
+        "upper_tail minus uniform_wait": [
+          -0.15794736842105261,
+          0.0641129032258064
+        ],
+        "upper_tail minus ordinary_now": [
+          -0.08740005711022274,
+          0.08167517006802699
+        ],
+        "upper_tail minus slope_plus_tide": [
+          -0.09434599694033656,
+          0.05555555555555555
+        ],
+        "upper_tail minus rise_uniform_wait": [
+          -0.15557291666666667,
+          0.04939814814814806
+        ],
+        "tail coverage minus global": [
+          0.03702020202020197,
+          0.24405487804877965
+        ],
+        "tail coverage minus uniform_width": [
+          -0.09685483870967744,
+          0.02501059322033895
+        ],
+        "tail coverage minus one": [
+          0.0,
+          0.05263157894736836
+        ],
+        "tail coverage minus slope": [
+          0.08327702702702695,
+          0.2222222222222222
+        ]
+      }
+    },
+    "tidal": {
+      "reachable": 103,
+      "intervals": {
+        "global": {
+          "n": 528,
+          "pos": 125,
+          "covered_pos": 77,
+          "overall": 0.8428030303030303,
+          "positive": 0.616,
+          "width": 3.985020045727922,
+          "interval_score": 7.484985218562342,
+          "upper_misses": 48
+        },
+        "tail": {
+          "n": 528,
+          "pos": 125,
+          "covered_pos": 110,
+          "overall": 0.9261363636363636,
+          "positive": 0.88,
+          "width": 6.175909164938887,
+          "interval_score": 7.199752543424764,
+          "upper_misses": 15
+        },
+        "uniform_width": {
+          "n": 528,
+          "pos": 125,
+          "covered_pos": 113,
+          "overall": 0.9318181818181818,
+          "positive": 0.904,
+          "width": 6.298281457168101,
+          "interval_score": 7.182911120156747,
+          "upper_misses": 12
+        },
+        "positive_pooled": {
+          "n": 528,
+          "pos": 125,
+          "covered_pos": 110,
+          "overall": 0.9261363636363636,
+          "positive": 0.88,
+          "width": 6.032561846634694,
+          "interval_score": 7.056405225120571,
+          "upper_misses": 15
+        },
+        "one": {
+          "n": 528,
+          "pos": 125,
+          "covered_pos": 102,
+          "overall": 0.9128787878787878,
+          "positive": 0.816,
+          "width": 4.90241155285952,
+          "interval_score": 6.279712969146292,
+          "upper_misses": 23
+        },
+        "slope": {
+          "n": 528,
+          "pos": 125,
+          "covered_pos": 105,
+          "overall": 0.946969696969697,
+          "positive": 0.84,
+          "width": 6.4905180298672915,
+          "interval_score": 8.182648387343981,
+          "upper_misses": 17
+        }
+      },
+      "policies": {
+        "slope": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 23,
+            "recall": 0.184,
+            "fpr": 0.04962779156327544,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 52,
+            "recall": 0.416,
+            "fpr": 0.09925558312655088,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 64,
+            "recall": 0.512,
+            "fpr": 0.1488833746898263,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 73,
+            "timely": 72,
+            "recall": 0.576,
+            "fpr": 0.18114143920595532,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_recheck": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 27,
+            "recall": 0.216,
+            "fpr": 0.04962779156327544,
+            "held": 466,
+            "rechecked": 462,
+            "late_alarms": 10
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 53,
+            "recall": 0.424,
+            "fpr": 0.09925558312655088,
+            "held": 420,
+            "rechecked": 416,
+            "late_alarms": 7
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 73,
+            "recall": 0.584,
+            "fpr": 0.1488833746898263,
+            "held": 386,
+            "rechecked": 382,
+            "late_alarms": 13
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 74,
+            "timely": 77,
+            "recall": 0.616,
+            "fpr": 0.18362282878411912,
+            "held": 363,
+            "rechecked": 359,
+            "late_alarms": 8
+          }
+        },
+        "timely_now": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 21,
+            "recall": 0.168,
+            "fpr": 0.04962779156327544,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 49,
+            "recall": 0.392,
+            "fpr": 0.09925558312655088,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 63,
+            "recall": 0.504,
+            "fpr": 0.1488833746898263,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 74,
+            "timely": 73,
+            "recall": 0.584,
+            "fpr": 0.18362282878411912,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "timely_recheck": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 28,
+            "recall": 0.224,
+            "fpr": 0.04962779156327544,
+            "held": 468,
+            "rechecked": 464,
+            "late_alarms": 13
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 55,
+            "recall": 0.44,
+            "fpr": 0.09925558312655088,
+            "held": 422,
+            "rechecked": 418,
+            "late_alarms": 11
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 70,
+            "recall": 0.56,
+            "fpr": 0.1488833746898263,
+            "held": 393,
+            "rechecked": 389,
+            "late_alarms": 17
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 70,
+            "timely": 74,
+            "recall": 0.592,
+            "fpr": 0.17369727047146402,
+            "held": 371,
+            "rechecked": 367,
+            "late_alarms": 9
+          }
+        },
+        "rise_uniform_wait": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 36,
+            "recall": 0.288,
+            "fpr": 0.04962779156327544,
+            "held": 496,
+            "rechecked": 492,
+            "late_alarms": 53
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 67,
+            "recall": 0.536,
+            "fpr": 0.09925558312655088,
+            "held": 465,
+            "rechecked": 461,
+            "late_alarms": 69
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 73,
+            "recall": 0.584,
+            "fpr": 0.1488833746898263,
+            "held": 442,
+            "rechecked": 438,
+            "late_alarms": 70
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 75,
+            "timely": 84,
+            "recall": 0.672,
+            "fpr": 0.18610421836228289,
+            "held": 416,
+            "rechecked": 412,
+            "late_alarms": 70
+          }
+        },
+        "ordinary_now": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 22,
+            "recall": 0.176,
+            "fpr": 0.04962779156327544,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 47,
+            "recall": 0.376,
+            "fpr": 0.09925558312655088,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 62,
+            "recall": 0.496,
+            "fpr": 0.1488833746898263,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 68,
+            "timely": 66,
+            "recall": 0.528,
+            "fpr": 0.1687344913151365,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_plus_tide": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 23,
+            "recall": 0.184,
+            "fpr": 0.04962779156327544,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 52,
+            "recall": 0.416,
+            "fpr": 0.09925558312655088,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 64,
+            "recall": 0.512,
+            "fpr": 0.1488833746898263,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 73,
+            "timely": 72,
+            "recall": 0.576,
+            "fpr": 0.18114143920595532,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "uniform_wait": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 33,
+            "recall": 0.264,
+            "fpr": 0.04962779156327544,
+            "held": 481,
+            "rechecked": 477,
+            "late_alarms": 31
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 67,
+            "recall": 0.536,
+            "fpr": 0.09925558312655088,
+            "held": 446,
+            "rechecked": 442,
+            "late_alarms": 49
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 76,
+            "recall": 0.608,
+            "fpr": 0.1488833746898263,
+            "held": 416,
+            "rechecked": 412,
+            "late_alarms": 46
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 70,
+            "timely": 81,
+            "recall": 0.648,
+            "fpr": 0.17369727047146402,
+            "held": 406,
+            "rechecked": 402,
+            "late_alarms": 51
+          }
+        },
+        "wait_global": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 40,
+            "recall": 0.32,
+            "fpr": 0.04962779156327544,
+            "held": 338,
+            "rechecked": 334,
+            "late_alarms": 34
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 66,
+            "recall": 0.528,
+            "fpr": 0.09925558312655088,
+            "held": 307,
+            "rechecked": 303,
+            "late_alarms": 48
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 77,
+            "recall": 0.616,
+            "fpr": 0.1488833746898263,
+            "held": 277,
+            "rechecked": 273,
+            "late_alarms": 42
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 71,
+            "timely": 81,
+            "recall": 0.648,
+            "fpr": 0.1761786600496278,
+            "held": 270,
+            "rechecked": 266,
+            "late_alarms": 44
+          }
+        },
+        "wait_tail": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 33,
+            "recall": 0.264,
+            "fpr": 0.04962779156327544,
+            "held": 481,
+            "rechecked": 477,
+            "late_alarms": 31
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 67,
+            "recall": 0.536,
+            "fpr": 0.09925558312655088,
+            "held": 446,
+            "rechecked": 442,
+            "late_alarms": 49
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 76,
+            "recall": 0.608,
+            "fpr": 0.1488833746898263,
+            "held": 416,
+            "rechecked": 412,
+            "late_alarms": 46
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 70,
+            "timely": 81,
+            "recall": 0.648,
+            "fpr": 0.17369727047146402,
+            "held": 406,
+            "rechecked": 402,
+            "late_alarms": 51
+          }
+        },
+        "wait_uniform_width": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 33,
+            "recall": 0.264,
+            "fpr": 0.04962779156327544,
+            "held": 481,
+            "rechecked": 477,
+            "late_alarms": 31
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 67,
+            "recall": 0.536,
+            "fpr": 0.09925558312655088,
+            "held": 446,
+            "rechecked": 442,
+            "late_alarms": 49
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 76,
+            "recall": 0.608,
+            "fpr": 0.1488833746898263,
+            "held": 416,
+            "rechecked": 412,
+            "late_alarms": 46
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 70,
+            "timely": 81,
+            "recall": 0.648,
+            "fpr": 0.17369727047146402,
+            "held": 406,
+            "rechecked": 402,
+            "late_alarms": 51
+          }
+        },
+        "upper_global": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 20,
+            "recall": 0.16,
+            "fpr": 0.04962779156327544,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 34,
+            "recall": 0.272,
+            "fpr": 0.09925558312655088,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 47,
+            "recall": 0.376,
+            "fpr": 0.1488833746898263,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 63,
+            "timely": 48,
+            "recall": 0.384,
+            "fpr": 0.15632754342431762,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "upper_tail": {
+          "0.05": {
+            "n": 528,
+            "pos": 125,
+            "fp": 20,
+            "timely": 20,
+            "recall": 0.16,
+            "fpr": 0.04962779156327544,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 528,
+            "pos": 125,
+            "fp": 40,
+            "timely": 34,
+            "recall": 0.272,
+            "fpr": 0.09925558312655088,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 528,
+            "pos": 125,
+            "fp": 60,
+            "timely": 47,
+            "recall": 0.376,
+            "fpr": 0.1488833746898263,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 528,
+            "pos": 125,
+            "fp": 63,
+            "timely": 48,
+            "recall": 0.384,
+            "fpr": 0.15632754342431762,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        }
+      },
+      "blocks": 15,
+      "positive_blocks": 11,
+      "fold_sizes": [
+        863,
+        287,
+        269,
+        528
+      ],
+      "ci95": {
+        "wait_tail minus slope": [
+          0.03737452405676705,
+          0.24
+        ],
+        "wait_tail minus slope_recheck": [
+          0.0,
+          0.22457062032733838
+        ],
+        "wait_tail minus timely_recheck": [
+          0.0,
+          0.21740523968784833
+        ],
+        "wait_tail minus uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "wait_tail minus ordinary_now": [
+          0.06377250409165301,
+          0.2619196428571428
+        ],
+        "wait_tail minus slope_plus_tide": [
+          0.03737452405676705,
+          0.24
+        ],
+        "wait_tail minus rise_uniform_wait": [
+          -0.07793481028775148,
+          0.04450980392156828
+        ],
+        "timely_now minus slope": [
+          -0.09090909090909088,
+          0.033333333333333326
+        ],
+        "timely_now minus slope_recheck": [
+          -0.171875,
+          0.03883810364392891
+        ],
+        "timely_now minus timely_recheck": [
+          -0.14285714285714285,
+          0.024009756097560942
+        ],
+        "timely_now minus uniform_wait": [
+          -0.2530200803212852,
+          -0.05452110389610399
+        ],
+        "timely_now minus ordinary_now": [
+          -0.023824041811846768,
+          0.04950699615416085
+        ],
+        "timely_now minus slope_plus_tide": [
+          -0.09090909090909088,
+          0.033333333333333326
+        ],
+        "timely_now minus rise_uniform_wait": [
+          -0.27014655172413793,
+          -0.05355790043290054
+        ],
+        "timely_recheck minus slope": [
+          -0.03759753156476096,
+          0.12039141414141401
+        ],
+        "timely_recheck minus slope_recheck": [
+          -0.07697368421052626,
+          0.0701816160118606
+        ],
+        "timely_recheck minus timely_recheck": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus uniform_wait": [
+          -0.21740523968784842,
+          0.0
+        ],
+        "timely_recheck minus ordinary_now": [
+          -0.008477368220015272,
+          0.15324131513647632
+        ],
+        "timely_recheck minus slope_plus_tide": [
+          -0.03759753156476096,
+          0.12039141414141401
+        ],
+        "timely_recheck minus rise_uniform_wait": [
+          -0.24,
+          0.0
+        ],
+        "upper_tail minus slope": [
+          -0.2702702702702703,
+          0.02532456994482309
+        ],
+        "upper_tail minus slope_recheck": [
+          -0.3684697855750487,
+          0.0
+        ],
+        "upper_tail minus timely_recheck": [
+          -0.3281333333333333,
+          0.00017605633802720875
+        ],
+        "upper_tail minus uniform_wait": [
+          -0.40583735909822866,
+          -0.09090909090909088
+        ],
+        "upper_tail minus ordinary_now": [
+          -0.2,
+          0.030945778415763965
+        ],
+        "upper_tail minus slope_plus_tide": [
+          -0.2702702702702703,
+          0.02532456994482309
+        ],
+        "upper_tail minus rise_uniform_wait": [
+          -0.4084544903831592,
+          -0.07934173669467799
+        ],
+        "tail coverage minus global": [
+          0.14851485148514854,
+          0.3571428571428571
+        ],
+        "tail coverage minus uniform_width": [
+          -0.05555555555555558,
+          0.0
+        ],
+        "tail coverage minus one": [
+          0.023809523809523832,
+          0.08783969408969407
+        ],
+        "tail coverage minus slope": [
+          0.0,
+          0.12286184210526291
+        ]
+      }
+    }
+  },
+  "prior": {
+    "all": {
+      "reachable": 60,
+      "intervals": {
+        "global": {
+          "n": 520,
+          "pos": 77,
+          "covered_pos": 43,
+          "overall": 0.85,
+          "positive": 0.5584415584415584,
+          "width": 3.491460482581887,
+          "interval_score": 6.950663858350504,
+          "upper_misses": 34
+        },
+        "tail": {
+          "n": 520,
+          "pos": 77,
+          "covered_pos": 47,
+          "overall": 0.8673076923076923,
+          "positive": 0.6103896103896104,
+          "width": 3.7400589098194743,
+          "interval_score": 6.834019485155585,
+          "upper_misses": 30
+        },
+        "uniform_width": {
+          "n": 520,
+          "pos": 77,
+          "covered_pos": 47,
+          "overall": 0.8673076923076923,
+          "positive": 0.6103896103896104,
+          "width": 3.73662530174211,
+          "interval_score": 6.836178496295139,
+          "upper_misses": 30
+        },
+        "positive_pooled": {
+          "n": 520,
+          "pos": 77,
+          "covered_pos": 43,
+          "overall": 0.85,
+          "positive": 0.5584415584415584,
+          "width": 3.491460482581887,
+          "interval_score": 6.950663858350504,
+          "upper_misses": 34
+        },
+        "one": {
+          "n": 520,
+          "pos": 77,
+          "covered_pos": 61,
+          "overall": 0.65,
+          "positive": 0.7922077922077922,
+          "width": 4.470379244183983,
+          "interval_score": 6.940004101754822,
+          "upper_misses": 16
+        },
+        "slope": {
+          "n": 520,
+          "pos": 77,
+          "covered_pos": 57,
+          "overall": 0.9019230769230769,
+          "positive": 0.7402597402597403,
+          "width": 4.592556918121586,
+          "interval_score": 10.435559167226792,
+          "upper_misses": 11
+        }
+      },
+      "policies": {
+        "slope": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 9,
+            "recall": 0.11688311688311688,
+            "fpr": 0.04966139954853273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 31,
+            "recall": 0.4025974025974026,
+            "fpr": 0.09932279909706546,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 45,
+            "recall": 0.5844155844155844,
+            "fpr": 0.1489841986455982,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 17,
+            "timely": 4,
+            "recall": 0.05194805194805195,
+            "fpr": 0.03837471783295711,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_recheck": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 7,
+            "recall": 0.09090909090909091,
+            "fpr": 0.04966139954853273,
+            "held": 478,
+            "rechecked": 442,
+            "late_alarms": 2
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 35,
+            "recall": 0.45454545454545453,
+            "fpr": 0.09932279909706546,
+            "held": 434,
+            "rechecked": 398,
+            "late_alarms": 9
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 47,
+            "recall": 0.6103896103896104,
+            "fpr": 0.1489841986455982,
+            "held": 399,
+            "rechecked": 363,
+            "late_alarms": 9
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 17,
+            "timely": 5,
+            "recall": 0.06493506493506493,
+            "fpr": 0.03837471783295711,
+            "held": 486,
+            "rechecked": 450,
+            "late_alarms": 3
+          }
+        },
+        "timely_now": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 42,
+            "recall": 0.5454545454545454,
+            "fpr": 0.04966139954853273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 54,
+            "recall": 0.7012987012987013,
+            "fpr": 0.09932279909706546,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 55,
+            "recall": 0.7142857142857143,
+            "fpr": 0.1489841986455982,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 12,
+            "timely": 37,
+            "recall": 0.4805194805194805,
+            "fpr": 0.02708803611738149,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "timely_recheck": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 44,
+            "recall": 0.5714285714285714,
+            "fpr": 0.04966139954853273,
+            "held": 450,
+            "rechecked": 411,
+            "late_alarms": 6
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 54,
+            "recall": 0.7012987012987013,
+            "fpr": 0.09932279909706546,
+            "held": 413,
+            "rechecked": 376,
+            "late_alarms": 4
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 55,
+            "recall": 0.7142857142857143,
+            "fpr": 0.1489841986455982,
+            "held": 390,
+            "rechecked": 353,
+            "late_alarms": 4
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 12,
+            "timely": 38,
+            "recall": 0.4935064935064935,
+            "fpr": 0.02708803611738149,
+            "held": 467,
+            "rechecked": 428,
+            "late_alarms": 7
+          }
+        },
+        "rise_uniform_wait": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 17,
+            "recall": 0.22077922077922077,
+            "fpr": 0.04966139954853273,
+            "held": 498,
+            "rechecked": 462,
+            "late_alarms": 36
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 40,
+            "recall": 0.5194805194805194,
+            "fpr": 0.09932279909706546,
+            "held": 456,
+            "rechecked": 420,
+            "late_alarms": 38
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 50,
+            "recall": 0.6493506493506493,
+            "fpr": 0.1489841986455982,
+            "held": 418,
+            "rechecked": 382,
+            "late_alarms": 31
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 14,
+            "timely": 12,
+            "recall": 0.15584415584415584,
+            "fpr": 0.03160270880361174,
+            "held": 502,
+            "rechecked": 465,
+            "late_alarms": 27
+          }
+        },
+        "ordinary_now": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 41,
+            "recall": 0.5324675324675324,
+            "fpr": 0.04966139954853273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 53,
+            "recall": 0.6883116883116883,
+            "fpr": 0.09932279909706546,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 55,
+            "recall": 0.7142857142857143,
+            "fpr": 0.1489841986455982,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 11,
+            "timely": 36,
+            "recall": 0.4675324675324675,
+            "fpr": 0.024830699774266364,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_plus_tide": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 41,
+            "recall": 0.5324675324675324,
+            "fpr": 0.04966139954853273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 54,
+            "recall": 0.7012987012987013,
+            "fpr": 0.09932279909706546,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 55,
+            "recall": 0.7142857142857143,
+            "fpr": 0.1489841986455982,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 13,
+            "timely": 35,
+            "recall": 0.45454545454545453,
+            "fpr": 0.029345372460496615,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "uniform_wait": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 45,
+            "recall": 0.5844155844155844,
+            "fpr": 0.04966139954853273,
+            "held": 462,
+            "rechecked": 423,
+            "late_alarms": 20
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 55,
+            "recall": 0.7142857142857143,
+            "fpr": 0.09932279909706546,
+            "held": 431,
+            "rechecked": 393,
+            "late_alarms": 23
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 55,
+            "recall": 0.7142857142857143,
+            "fpr": 0.1489841986455982,
+            "held": 408,
+            "rechecked": 371,
+            "late_alarms": 23
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 7,
+            "timely": 37,
+            "recall": 0.4805194805194805,
+            "fpr": 0.01580135440180587,
+            "held": 487,
+            "rechecked": 446,
+            "late_alarms": 22
+          }
+        },
+        "wait_global": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 47,
+            "recall": 0.6103896103896104,
+            "fpr": 0.04966139954853273,
+            "held": 199,
+            "rechecked": 183,
+            "late_alarms": 17
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 54,
+            "recall": 0.7012987012987013,
+            "fpr": 0.09932279909706546,
+            "held": 188,
+            "rechecked": 172,
+            "late_alarms": 21
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 56,
+            "recall": 0.7272727272727273,
+            "fpr": 0.1489841986455982,
+            "held": 168,
+            "rechecked": 153,
+            "late_alarms": 13
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 7,
+            "timely": 37,
+            "recall": 0.4805194805194805,
+            "fpr": 0.01580135440180587,
+            "held": 221,
+            "rechecked": 203,
+            "late_alarms": 22
+          }
+        },
+        "wait_tail": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 47,
+            "recall": 0.6103896103896104,
+            "fpr": 0.04966139954853273,
+            "held": 242,
+            "rechecked": 224,
+            "late_alarms": 20
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 54,
+            "recall": 0.7012987012987013,
+            "fpr": 0.09932279909706546,
+            "held": 231,
+            "rechecked": 213,
+            "late_alarms": 24
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 55,
+            "recall": 0.7142857142857143,
+            "fpr": 0.1489841986455982,
+            "held": 206,
+            "rechecked": 190,
+            "late_alarms": 15
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 7,
+            "timely": 37,
+            "recall": 0.4805194805194805,
+            "fpr": 0.01580135440180587,
+            "held": 264,
+            "rechecked": 244,
+            "late_alarms": 22
+          }
+        },
+        "wait_uniform_width": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 47,
+            "recall": 0.6103896103896104,
+            "fpr": 0.04966139954853273,
+            "held": 241,
+            "rechecked": 223,
+            "late_alarms": 19
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 54,
+            "recall": 0.7012987012987013,
+            "fpr": 0.09932279909706546,
+            "held": 230,
+            "rechecked": 212,
+            "late_alarms": 23
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 55,
+            "recall": 0.7142857142857143,
+            "fpr": 0.1489841986455982,
+            "held": 206,
+            "rechecked": 190,
+            "late_alarms": 15
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 7,
+            "timely": 37,
+            "recall": 0.4805194805194805,
+            "fpr": 0.01580135440180587,
+            "held": 263,
+            "rechecked": 243,
+            "late_alarms": 22
+          }
+        },
+        "upper_global": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 11,
+            "recall": 0.14285714285714285,
+            "fpr": 0.04966139954853273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 29,
+            "recall": 0.37662337662337664,
+            "fpr": 0.09932279909706546,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 38,
+            "recall": 0.4935064935064935,
+            "fpr": 0.1489841986455982,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 11,
+            "timely": 9,
+            "recall": 0.11688311688311688,
+            "fpr": 0.024830699774266364,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "upper_tail": {
+          "0.05": {
+            "n": 520,
+            "pos": 77,
+            "fp": 22,
+            "timely": 11,
+            "recall": 0.14285714285714285,
+            "fpr": 0.04966139954853273,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 520,
+            "pos": 77,
+            "fp": 44,
+            "timely": 29,
+            "recall": 0.37662337662337664,
+            "fpr": 0.09932279909706546,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 520,
+            "pos": 77,
+            "fp": 66,
+            "timely": 38,
+            "recall": 0.4935064935064935,
+            "fpr": 0.1489841986455982,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 520,
+            "pos": 77,
+            "fp": 11,
+            "timely": 9,
+            "recall": 0.11688311688311688,
+            "fpr": 0.024830699774266364,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        }
+      },
+      "blocks": 25,
+      "positive_blocks": 9,
+      "fold_sizes": [
+        831,
+        152,
+        409,
+        520
+      ],
+      "ci95": {
+        "wait_tail minus slope": [
+          0.0,
+          0.5410579174923433
+        ],
+        "wait_tail minus slope_recheck": [
+          0.0,
+          0.545512449334105
+        ],
+        "wait_tail minus timely_recheck": [
+          -0.11429742388758775,
+          0.0145035691109668
+        ],
+        "wait_tail minus uniform_wait": [
+          -0.11115023474178408,
+          0.04354072963518204
+        ],
+        "wait_tail minus ordinary_now": [
+          -0.06670454545454549,
+          0.09786270428615458
+        ],
+        "wait_tail minus slope_plus_tide": [
+          -0.11365259740259741,
+          0.050000000000000044
+        ],
+        "wait_tail minus rise_uniform_wait": [
+          0.0,
+          0.3676237918707791
+        ],
+        "timely_now minus slope": [
+          0.0,
+          0.5796663956272301
+        ],
+        "timely_now minus slope_recheck": [
+          0.0,
+          0.5818560606060603
+        ],
+        "timely_now minus timely_recheck": [
+          0.0,
+          0.013932291666666381
+        ],
+        "timely_now minus uniform_wait": [
+          -0.045480972515856304,
+          0.06528187177597602
+        ],
+        "timely_now minus ordinary_now": [
+          0.0,
+          0.12689915805587432
+        ],
+        "timely_now minus slope_plus_tide": [
+          -0.010005102040816333,
+          0.08572196620583716
+        ],
+        "timely_now minus rise_uniform_wait": [
+          0.0,
+          0.4118872549019601
+        ],
+        "timely_recheck minus slope": [
+          0.0,
+          0.5796663956272302
+        ],
+        "timely_recheck minus slope_recheck": [
+          0.0,
+          0.5818560606060603
+        ],
+        "timely_recheck minus timely_recheck": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus uniform_wait": [
+          -0.045480972515856304,
+          0.055615942028985205
+        ],
+        "timely_recheck minus ordinary_now": [
+          0.0,
+          0.12686863302534945
+        ],
+        "timely_recheck minus slope_plus_tide": [
+          -0.019235436893203926,
+          0.08572196620583716
+        ],
+        "timely_recheck minus rise_uniform_wait": [
+          0.0,
+          0.4118872549019601
+        ],
+        "upper_tail minus slope": [
+          -0.18181818181818188,
+          0.08008333333333295
+        ],
+        "upper_tail minus slope_recheck": [
+          -0.22939308398023994,
+          0.0870553359683789
+        ],
+        "upper_tail minus timely_recheck": [
+          -0.5886539121482499,
+          -0.13043478260869562
+        ],
+        "upper_tail minus uniform_wait": [
+          -0.6092197545295149,
+          -0.09302325581395354
+        ],
+        "upper_tail minus ordinary_now": [
+          -0.526891495601173,
+          -0.1071428571428571
+        ],
+        "upper_tail minus slope_plus_tide": [
+          -0.575227500417432,
+          -0.10658620689655207
+        ],
+        "upper_tail minus rise_uniform_wait": [
+          -0.32353976801988404,
+          0.0800833333333329
+        ],
+        "tail coverage minus global": [
+          0.0,
+          0.1333783783783782
+        ],
+        "tail coverage minus uniform_width": [
+          0.0,
+          0.0
+        ],
+        "tail coverage minus one": [
+          -0.32352941176470584,
+          -0.040000000000000036
+        ],
+        "tail coverage minus slope": [
+          -0.28985507246376807,
+          0.16666666666666663
+        ]
+      }
+    },
+    "non_tidal": {
+      "reachable": 2,
+      "intervals": {
+        "global": {
+          "n": 251,
+          "pos": 11,
+          "covered_pos": 7,
+          "overall": 0.9601593625498008,
+          "positive": 0.6363636363636364,
+          "width": 3.345165897572564,
+          "interval_score": 6.197955563920372,
+          "upper_misses": 4
+        },
+        "tail": {
+          "n": 251,
+          "pos": 11,
+          "covered_pos": 7,
+          "overall": 0.9601593625498008,
+          "positive": 0.6363636363636364,
+          "width": 3.592951107298891,
+          "interval_score": 6.363828307621467,
+          "upper_misses": 4
+        },
+        "uniform_width": {
+          "n": 251,
+          "pos": 11,
+          "covered_pos": 7,
+          "overall": 0.9601593625498008,
+          "positive": 0.6363636363636364,
+          "width": 3.590330716732788,
+          "interval_score": 6.364980201674948,
+          "upper_misses": 4
+        },
+        "positive_pooled": {
+          "n": 251,
+          "pos": 11,
+          "covered_pos": 7,
+          "overall": 0.9601593625498008,
+          "positive": 0.6363636363636364,
+          "width": 3.345165897572564,
+          "interval_score": 6.197955563920372,
+          "upper_misses": 4
+        },
+        "one": {
+          "n": 251,
+          "pos": 11,
+          "covered_pos": 8,
+          "overall": 0.50199203187251,
+          "positive": 0.7272727272727273,
+          "width": 4.340690161842181,
+          "interval_score": 7.788248220052816,
+          "upper_misses": 3
+        },
+        "slope": {
+          "n": 251,
+          "pos": 11,
+          "covered_pos": 2,
+          "overall": 0.8764940239043825,
+          "positive": 0.18181818181818182,
+          "width": 4.299570442749784,
+          "interval_score": 14.549115290860867,
+          "upper_misses": 3
+        }
+      },
+      "policies": {
+        "slope": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 3,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.0125,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_recheck": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 232,
+            "rechecked": 210,
+            "late_alarms": 1
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 222,
+            "rechecked": 200,
+            "late_alarms": 3
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 210,
+            "rechecked": 188,
+            "late_alarms": 4
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 3,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.0125,
+            "held": 242,
+            "rechecked": 220,
+            "late_alarms": 0
+          }
+        },
+        "timely_now": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 3,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.0125,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "timely_recheck": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 237,
+            "rechecked": 215,
+            "late_alarms": 6
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 226,
+            "rechecked": 204,
+            "late_alarms": 7
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 212,
+            "rechecked": 190,
+            "late_alarms": 6
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 4,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.016666666666666666,
+            "held": 245,
+            "rechecked": 222,
+            "late_alarms": 5
+          }
+        },
+        "rise_uniform_wait": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 240,
+            "rechecked": 218,
+            "late_alarms": 9
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 229,
+            "rechecked": 207,
+            "late_alarms": 10
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 214,
+            "rechecked": 192,
+            "late_alarms": 8
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 4,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.016666666666666666,
+            "held": 247,
+            "rechecked": 223,
+            "late_alarms": 6
+          }
+        },
+        "ordinary_now": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 3,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.0125,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_plus_tide": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 3,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.0125,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "uniform_wait": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 239,
+            "rechecked": 217,
+            "late_alarms": 8
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 234,
+            "rechecked": 212,
+            "late_alarms": 15
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 219,
+            "rechecked": 197,
+            "late_alarms": 13
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 3,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.0125,
+            "held": 247,
+            "rechecked": 223,
+            "late_alarms": 5
+          }
+        },
+        "wait_global": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 63,
+            "rechecked": 56,
+            "late_alarms": 7
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 58,
+            "rechecked": 51,
+            "late_alarms": 14
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 41,
+            "rechecked": 34,
+            "late_alarms": 8
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 3,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.0125,
+            "held": 71,
+            "rechecked": 62,
+            "late_alarms": 4
+          }
+        },
+        "wait_tail": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 88,
+            "rechecked": 79,
+            "late_alarms": 7
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 83,
+            "rechecked": 74,
+            "late_alarms": 14
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 66,
+            "rechecked": 57,
+            "late_alarms": 10
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 3,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.0125,
+            "held": 96,
+            "rechecked": 85,
+            "late_alarms": 4
+          }
+        },
+        "wait_uniform_width": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 88,
+            "rechecked": 79,
+            "late_alarms": 7
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 83,
+            "rechecked": 74,
+            "late_alarms": 14
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 66,
+            "rechecked": 57,
+            "late_alarms": 10
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 3,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.0125,
+            "held": 96,
+            "rechecked": 85,
+            "late_alarms": 4
+          }
+        },
+        "upper_global": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 4,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.016666666666666666,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "upper_tail": {
+          "0.05": {
+            "n": 251,
+            "pos": 11,
+            "fp": 12,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.05,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 251,
+            "pos": 11,
+            "fp": 24,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.1,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 251,
+            "pos": 11,
+            "fp": 36,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.15,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 251,
+            "pos": 11,
+            "fp": 4,
+            "timely": 0,
+            "recall": 0.0,
+            "fpr": 0.016666666666666666,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        }
+      },
+      "blocks": 18,
+      "positive_blocks": 1,
+      "fold_sizes": [
+        94,
+        26,
+        122,
+        251
+      ],
+      "ci95": {
+        "wait_tail minus slope": [
+          0.0,
+          0.0
+        ],
+        "wait_tail minus slope_recheck": [
+          0.0,
+          0.0
+        ],
+        "wait_tail minus timely_recheck": [
+          0.0,
+          0.0
+        ],
+        "wait_tail minus uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "wait_tail minus ordinary_now": [
+          0.0,
+          0.0
+        ],
+        "wait_tail minus slope_plus_tide": [
+          0.0,
+          0.0
+        ],
+        "wait_tail minus rise_uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "timely_now minus slope": [
+          0.0,
+          0.0
+        ],
+        "timely_now minus slope_recheck": [
+          0.0,
+          0.0
+        ],
+        "timely_now minus timely_recheck": [
+          0.0,
+          0.0
+        ],
+        "timely_now minus uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "timely_now minus ordinary_now": [
+          0.0,
+          0.0
+        ],
+        "timely_now minus slope_plus_tide": [
+          0.0,
+          0.0
+        ],
+        "timely_now minus rise_uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus slope": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus slope_recheck": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus timely_recheck": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus ordinary_now": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus slope_plus_tide": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus rise_uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "upper_tail minus slope": [
+          0.0,
+          0.0
+        ],
+        "upper_tail minus slope_recheck": [
+          0.0,
+          0.0
+        ],
+        "upper_tail minus timely_recheck": [
+          0.0,
+          0.0
+        ],
+        "upper_tail minus uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "upper_tail minus ordinary_now": [
+          0.0,
+          0.0
+        ],
+        "upper_tail minus slope_plus_tide": [
+          0.0,
+          0.0
+        ],
+        "upper_tail minus rise_uniform_wait": [
+          0.0,
+          0.0
+        ],
+        "tail coverage minus global": [
+          0.0,
+          0.0
+        ],
+        "tail coverage minus uniform_width": [
+          0.0,
+          0.0
+        ],
+        "tail coverage minus one": [
+          -0.09090909090909094,
+          -0.09090909090909094
+        ],
+        "tail coverage minus slope": [
+          0.45454545454545453,
+          0.45454545454545453
+        ]
+      }
+    },
+    "tidal": {
+      "reachable": 58,
+      "intervals": {
+        "global": {
+          "n": 269,
+          "pos": 66,
+          "covered_pos": 36,
+          "overall": 0.7472118959107806,
+          "positive": 0.5454545454545454,
+          "width": 3.6279658388545264,
+          "interval_score": 7.653005055012078,
+          "upper_misses": 30
+        },
+        "tail": {
+          "n": 269,
+          "pos": 66,
+          "covered_pos": 40,
+          "overall": 0.7806691449814126,
+          "positive": 0.6060606060606061,
+          "width": 3.8773230675617283,
+          "interval_score": 7.2727480560145565,
+          "upper_misses": 26
+        },
+        "uniform_width": {
+          "n": 269,
+          "pos": 66,
+          "covered_pos": 40,
+          "overall": 0.7806691449814126,
+          "positive": 0.6060606060606061,
+          "width": 3.8731306580147504,
+          "interval_score": 7.275846793505802,
+          "upper_misses": 26
+        },
+        "positive_pooled": {
+          "n": 269,
+          "pos": 66,
+          "covered_pos": 36,
+          "overall": 0.7472118959107806,
+          "positive": 0.5454545454545454,
+          "width": 3.6279658388545264,
+          "interval_score": 7.653005055012078,
+          "upper_misses": 30
+        },
+        "one": {
+          "n": 269,
+          "pos": 66,
+          "covered_pos": 53,
+          "overall": 0.7881040892193308,
+          "positive": 0.803030303030303,
+          "width": 4.591390246666481,
+          "interval_score": 6.148519812934016,
+          "upper_misses": 13
+        },
+        "slope": {
+          "n": 269,
+          "pos": 66,
+          "covered_pos": 55,
+          "overall": 0.9256505576208178,
+          "positive": 0.8333333333333334,
+          "width": 4.8659383505317075,
+          "interval_score": 6.597259587181613,
+          "upper_misses": 8
+        }
+      },
+      "policies": {
+        "slope": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 31,
+            "recall": 0.4696969696969697,
+            "fpr": 0.04926108374384237,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 40,
+            "recall": 0.6060606060606061,
+            "fpr": 0.09852216748768473,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 47,
+            "recall": 0.7121212121212122,
+            "fpr": 0.1477832512315271,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 5,
+            "timely": 24,
+            "recall": 0.36363636363636365,
+            "fpr": 0.024630541871921183,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_recheck": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 35,
+            "recall": 0.5303030303030303,
+            "fpr": 0.04926108374384237,
+            "held": 222,
+            "rechecked": 208,
+            "late_alarms": 5
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 45,
+            "recall": 0.6818181818181818,
+            "fpr": 0.09852216748768473,
+            "held": 203,
+            "rechecked": 189,
+            "late_alarms": 7
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 50,
+            "recall": 0.7575757575757576,
+            "fpr": 0.1477832512315271,
+            "held": 187,
+            "rechecked": 174,
+            "late_alarms": 6
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 5,
+            "timely": 27,
+            "recall": 0.4090909090909091,
+            "fpr": 0.024630541871921183,
+            "held": 234,
+            "rechecked": 220,
+            "late_alarms": 5
+          }
+        },
+        "timely_now": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 35,
+            "recall": 0.5303030303030303,
+            "fpr": 0.04926108374384237,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 41,
+            "recall": 0.6212121212121212,
+            "fpr": 0.09852216748768473,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 50,
+            "recall": 0.7575757575757576,
+            "fpr": 0.1477832512315271,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 7,
+            "timely": 30,
+            "recall": 0.45454545454545453,
+            "fpr": 0.034482758620689655,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "timely_recheck": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 37,
+            "recall": 0.5606060606060606,
+            "fpr": 0.04926108374384237,
+            "held": 219,
+            "rechecked": 206,
+            "late_alarms": 5
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 44,
+            "recall": 0.6666666666666666,
+            "fpr": 0.09852216748768473,
+            "held": 202,
+            "rechecked": 189,
+            "late_alarms": 4
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 50,
+            "recall": 0.7575757575757576,
+            "fpr": 0.1477832512315271,
+            "held": 181,
+            "rechecked": 168,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 8,
+            "timely": 33,
+            "recall": 0.5,
+            "fpr": 0.03940886699507389,
+            "held": 225,
+            "rechecked": 212,
+            "late_alarms": 5
+          }
+        },
+        "rise_uniform_wait": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 39,
+            "recall": 0.5909090909090909,
+            "fpr": 0.04926108374384237,
+            "held": 241,
+            "rechecked": 227,
+            "late_alarms": 30
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 46,
+            "recall": 0.696969696969697,
+            "fpr": 0.09852216748768473,
+            "held": 227,
+            "rechecked": 213,
+            "late_alarms": 33
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 52,
+            "recall": 0.7878787878787878,
+            "fpr": 0.1477832512315271,
+            "held": 207,
+            "rechecked": 193,
+            "late_alarms": 28
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 5,
+            "timely": 28,
+            "recall": 0.42424242424242425,
+            "fpr": 0.024630541871921183,
+            "held": 256,
+            "rechecked": 242,
+            "late_alarms": 30
+          }
+        },
+        "ordinary_now": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 36,
+            "recall": 0.5454545454545454,
+            "fpr": 0.04926108374384237,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 41,
+            "recall": 0.6212121212121212,
+            "fpr": 0.09852216748768473,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 51,
+            "recall": 0.7727272727272727,
+            "fpr": 0.1477832512315271,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 7,
+            "timely": 34,
+            "recall": 0.5151515151515151,
+            "fpr": 0.034482758620689655,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "slope_plus_tide": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 31,
+            "recall": 0.4696969696969697,
+            "fpr": 0.04926108374384237,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 40,
+            "recall": 0.6060606060606061,
+            "fpr": 0.09852216748768473,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 47,
+            "recall": 0.7121212121212122,
+            "fpr": 0.1477832512315271,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 5,
+            "timely": 24,
+            "recall": 0.36363636363636365,
+            "fpr": 0.024630541871921183,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "uniform_wait": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 42,
+            "recall": 0.6363636363636364,
+            "fpr": 0.04926108374384237,
+            "held": 229,
+            "rechecked": 215,
+            "late_alarms": 20
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 45,
+            "recall": 0.6818181818181818,
+            "fpr": 0.09852216748768473,
+            "held": 213,
+            "rechecked": 200,
+            "late_alarms": 17
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 52,
+            "recall": 0.7878787878787878,
+            "fpr": 0.1477832512315271,
+            "held": 203,
+            "rechecked": 190,
+            "late_alarms": 24
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 6,
+            "timely": 31,
+            "recall": 0.4696969696969697,
+            "fpr": 0.029556650246305417,
+            "held": 246,
+            "rechecked": 232,
+            "late_alarms": 23
+          }
+        },
+        "wait_global": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 40,
+            "recall": 0.6060606060606061,
+            "fpr": 0.04926108374384237,
+            "held": 141,
+            "rechecked": 135,
+            "late_alarms": 18
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 44,
+            "recall": 0.6666666666666666,
+            "fpr": 0.09852216748768473,
+            "held": 129,
+            "rechecked": 124,
+            "late_alarms": 18
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 49,
+            "recall": 0.7424242424242424,
+            "fpr": 0.1477832512315271,
+            "held": 120,
+            "rechecked": 115,
+            "late_alarms": 15
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 6,
+            "timely": 31,
+            "recall": 0.4696969696969697,
+            "fpr": 0.029556650246305417,
+            "held": 156,
+            "rechecked": 150,
+            "late_alarms": 23
+          }
+        },
+        "wait_tail": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 42,
+            "recall": 0.6363636363636364,
+            "fpr": 0.04926108374384237,
+            "held": 159,
+            "rechecked": 153,
+            "late_alarms": 21
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 46,
+            "recall": 0.696969696969697,
+            "fpr": 0.09852216748768473,
+            "held": 145,
+            "rechecked": 140,
+            "late_alarms": 18
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 49,
+            "recall": 0.7424242424242424,
+            "fpr": 0.1477832512315271,
+            "held": 138,
+            "rechecked": 133,
+            "late_alarms": 18
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 6,
+            "timely": 31,
+            "recall": 0.4696969696969697,
+            "fpr": 0.029556650246305417,
+            "held": 174,
+            "rechecked": 168,
+            "late_alarms": 23
+          }
+        },
+        "wait_uniform_width": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 40,
+            "recall": 0.6060606060606061,
+            "fpr": 0.04926108374384237,
+            "held": 158,
+            "rechecked": 152,
+            "late_alarms": 18
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 46,
+            "recall": 0.696969696969697,
+            "fpr": 0.09852216748768473,
+            "held": 144,
+            "rechecked": 139,
+            "late_alarms": 17
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 49,
+            "recall": 0.7424242424242424,
+            "fpr": 0.1477832512315271,
+            "held": 137,
+            "rechecked": 132,
+            "late_alarms": 17
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 6,
+            "timely": 31,
+            "recall": 0.4696969696969697,
+            "fpr": 0.029556650246305417,
+            "held": 173,
+            "rechecked": 167,
+            "late_alarms": 23
+          }
+        },
+        "upper_global": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 25,
+            "recall": 0.3787878787878788,
+            "fpr": 0.04926108374384237,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 36,
+            "recall": 0.5454545454545454,
+            "fpr": 0.09852216748768473,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 38,
+            "recall": 0.5757575757575758,
+            "fpr": 0.1477832512315271,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 6,
+            "timely": 19,
+            "recall": 0.2878787878787879,
+            "fpr": 0.029556650246305417,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        },
+        "upper_tail": {
+          "0.05": {
+            "n": 269,
+            "pos": 66,
+            "fp": 10,
+            "timely": 25,
+            "recall": 0.3787878787878788,
+            "fpr": 0.04926108374384237,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.1": {
+            "n": 269,
+            "pos": 66,
+            "fp": 20,
+            "timely": 36,
+            "recall": 0.5454545454545454,
+            "fpr": 0.09852216748768473,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "0.15": {
+            "n": 269,
+            "pos": 66,
+            "fp": 30,
+            "timely": 38,
+            "recall": 0.5757575757575758,
+            "fpr": 0.1477832512315271,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          },
+          "frozen": {
+            "n": 269,
+            "pos": 66,
+            "fp": 6,
+            "timely": 19,
+            "recall": 0.2878787878787879,
+            "fpr": 0.029556650246305417,
+            "held": 0,
+            "rechecked": 0,
+            "late_alarms": 0
+          }
+        }
+      },
+      "blocks": 24,
+      "positive_blocks": 9,
+      "fold_sizes": [
+        737,
+        126,
+        287,
+        269
+      ],
+      "ci95": {
+        "wait_tail minus slope": [
+          -0.15384615384615385,
+          0.1475561627200971
+        ],
+        "wait_tail minus slope_recheck": [
+          -0.15394736842105264,
+          0.0864331723027374
+        ],
+        "wait_tail minus timely_recheck": [
+          -0.14819444444444443,
+          0.11904761904761896
+        ],
+        "wait_tail minus uniform_wait": [
+          -0.17151785714285708,
+          0.052667140825035416
+        ],
+        "wait_tail minus ordinary_now": [
+          -0.1063829787234043,
+          0.17647058823529405
+        ],
+        "wait_tail minus slope_plus_tide": [
+          -0.15384615384615385,
+          0.1475561627200971
+        ],
+        "wait_tail minus rise_uniform_wait": [
+          -0.1863953488372093,
+          0.10528309409888345
+        ],
+        "timely_now minus slope": [
+          -0.08517652560205753,
+          0.08337765957446788
+        ],
+        "timely_now minus slope_recheck": [
+          -0.13114754098360648,
+          0.07999999999999996
+        ],
+        "timely_now minus timely_recheck": [
+          -0.09616935483870967,
+          0.054551681195516795
+        ],
+        "timely_now minus uniform_wait": [
+          -0.1333333333333333,
+          0.08108108108108103
+        ],
+        "timely_now minus ordinary_now": [
+          -0.024706985466479137,
+          0.14819444444444418
+        ],
+        "timely_now minus slope_plus_tide": [
+          -0.08517652560205753,
+          0.08337765957446788
+        ],
+        "timely_now minus rise_uniform_wait": [
+          -0.1428571428571429,
+          0.09261111111111098
+        ],
+        "timely_recheck minus slope": [
+          -0.04350241545893728,
+          0.11323450134770884
+        ],
+        "timely_recheck minus slope_recheck": [
+          -0.10717047128129598,
+          0.07219906003638547
+        ],
+        "timely_recheck minus timely_recheck": [
+          0.0,
+          0.0
+        ],
+        "timely_recheck minus uniform_wait": [
+          -0.11870826913199796,
+          0.07699999999999953
+        ],
+        "timely_recheck minus ordinary_now": [
+          -0.026324561403508744,
+          0.16666666666666663
+        ],
+        "timely_recheck minus slope_plus_tide": [
+          -0.04350241545893728,
+          0.11323450134770884
+        ],
+        "timely_recheck minus rise_uniform_wait": [
+          -0.12504401408450705,
+          0.09095117845117826
+        ],
+        "upper_tail minus slope": [
+          -0.26673076923076927,
+          0.0
+        ],
+        "upper_tail minus slope_recheck": [
+          -0.30774647887323947,
+          2.7755575615477452e-18
+        ],
+        "upper_tail minus timely_recheck": [
+          -0.3153947368421052,
+          0.0
+        ],
+        "upper_tail minus uniform_wait": [
+          -0.3252083333333334,
+          0.0
+        ],
+        "upper_tail minus ordinary_now": [
+          -0.23946922274387064,
+          0.03336206896551708
+        ],
+        "upper_tail minus slope_plus_tide": [
+          -0.26673076923076927,
+          0.0
+        ],
+        "upper_tail minus rise_uniform_wait": [
+          -0.32894736842105265,
+          0.04349424552429656
+        ],
+        "tail coverage minus global": [
+          0.0,
+          0.18757440476190435
+        ],
+        "tail coverage minus uniform_width": [
+          0.0,
+          0.0
+        ],
+        "tail coverage minus one": [
+          -0.32432432432432434,
+          0.0
+        ],
+        "tail coverage minus slope": [
+          -0.2916801948051948,
+          0.0
+        ]
+      }
+    }
+  }
+}

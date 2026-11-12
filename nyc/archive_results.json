@@ -1,0 +1,61 @@
+{
+  "oct20.csv": {
+    "rows": 9073,
+    "deployments": 1,
+    "depths": {
+      "zero": 9073
+    },
+    "median_gap_seconds": 250.43,
+    "hours_bridged_by_adjacent_pairs_le_360s": 618.6,
+    "pairs": [],
+    "sha256": "64a50261f8b6da3567ae41af2e5d5257c5b72251b67c5de5289c6f4928a16864"
+  },
+  "sep21.csv": {
+    "rows": 64075,
+    "deployments": 7,
+    "depths": {
+      "zero": 63314,
+      "nonzero": 761
+    },
+    "median_gap_seconds": 247.91,
+    "hours_bridged_by_adjacent_pairs_le_360s": 2888.1,
+    "pairs": [
+      {
+        "sensor": "Q - Russell St 2",
+        "start": "2021-09-02 01:51:03+00:00",
+        "points": 31,
+        "archive_peak_in": 2.874,
+        "summary_peak_in": 2.87
+      },
+      {
+        "sensor": "BK - 9th St/Smith St",
+        "start": "2021-09-02 00:11:58+00:00",
+        "points": 44,
+        "archive_peak_in": 27.795,
+        "summary_peak_in": 27.76
+      },
+      {
+        "sensor": "BK - Carroll St/4th Av",
+        "start": "2021-09-02 01:27:16+00:00",
+        "points": 20,
+        "archive_peak_in": 35.591,
+        "summary_peak_in": 35.59
+      },
+      {
+        "sensor": "Q - Russell St 1",
+        "start": "2021-09-02 02:03:01+00:00",
+        "points": 18,
+        "archive_peak_in": 1.496,
+        "summary_peak_in": 1.5
+      },
+      {
+        "sensor": "BK - Hoyt St/5th St",
+        "start": "2021-09-02 01:24:41+00:00",
+        "points": 26,
+        "archive_peak_in": 10.354,
+        "summary_peak_in": 10.35
+      }
+    ],
+    "sha256": "a4074c31c924bf7dd47a5a134a6275cad7acb809f063b12bb5f057bb6f06dc06"
+  }
+}
