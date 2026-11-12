@@ -2,7 +2,7 @@
 
 智慧城市课程中期项目。街道传感器首次测到超过 10 mm 的积水后，检测器在第 5 分钟判断风险；尚未告警且有新读数时，第 8 分钟再判断一次。目标是在首湿后 35 分钟内水深达到 4 英寸（10.16 cm）之前，留出至少 5 分钟的处置时间。
 
-[课堂主讲 · 6 页](presentation/talk.pdf) · [含答疑的完整汇报](presentation/midterm.pdf) · [离线检测器](nyc/FloodNet-街道积水升级检测器.html) · [实验索引](experiments/) · [下载与原始数据](https://github.com/Owen2005-brilliant/smart_city/releases/tag/midterm-report-v1)
+[正式汇报 · 20 页](presentation/talk.pdf) · [完整汇报 · 含 5 页答疑](presentation/midterm.pdf) · [离线检测器](nyc/FloodNet-街道积水升级检测器.html) · [实验索引](experiments/) · [检测器与历史数据发布](https://github.com/Owen2005-brilliant/smart_city/releases/tag/midterm-report-v1)
 
 ## 怎样看这个项目
 
