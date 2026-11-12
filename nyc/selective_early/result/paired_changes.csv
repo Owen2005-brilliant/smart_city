@@ -1,0 +1,9 @@
+period,mode,group,gained,lost,new_fp,avoided_fp
+main,matched,all,0,0,1,1
+main,matched,non_tidal,0,0,1,1
+main,frozen,all,3,0,4,0
+main,frozen,non_tidal,3,0,4,0
+prior,matched,all,0,0,0,0
+prior,matched,non_tidal,0,0,0,0
+prior,frozen,all,0,0,1,0
+prior,frozen,non_tidal,0,0,1,0

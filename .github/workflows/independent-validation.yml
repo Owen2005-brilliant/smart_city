@@ -1,0 +1,31 @@
+name: FloodNet independent validation
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the frozen detector
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: refs/tags/midterm-freeze-v1
+          persist-credentials: false
+      - name: Verify historical replay
+        run: python3 -m unittest discover -s nyc/prospective -p 'test_*.py'
+      - name: Score the current official snapshot
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 nyc/prospective/validate_new.py --out "$RUNNER_TEMP/floodnet-reports" | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Save report and source snapshot
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: floodnet-independent-validation
+          path: ${{ runner.temp }}/floodnet-reports/official/
+          if-no-files-found: error
+          retention-days: 30

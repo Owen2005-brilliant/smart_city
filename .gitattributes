@@ -1,0 +1,7 @@
+# Preserve official exports and generated CSV bytes for archived SHA-256 checks.
+*.csv -text
+*.py text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf

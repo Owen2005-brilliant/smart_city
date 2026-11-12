@@ -4,6 +4,14 @@
 
 智慧城市课程项目。给定一个测点早期的水深读数，比较立即告警和等待一次复查能否及时预测未来 30 分钟内的积水升级。升级阈值为 4 英寸（10.16 厘米），及时告警要求至少提前 5 分钟。研究范围为已发生积水、观测质量足以评分的站点事件。
 
+## 冻结版本与独立验证
+
+[中期冻结版本 midterm-freeze-v1](https://github.com/Owen2005-brilliant/smart_city/tree/midterm-freeze-v1) 含可离线运行的新版检测器、早晚首判同屏回放和逐场对照。正式产品采用第 5 分钟首判、第 8 分钟可复查。研究用早判、加急规则保留为冻结对照。
+
+在仓库根目录运行 `python3 nyc/prospective/validate_new.py`，即可从官方取得新快照，排除历史数据并评分。冻结后尚无新事件时，命令输出“暂无冻结后新增事件”。[独立验证口径与使用说明](nyc/prospective/README.md) · [加急实验、误差分解与复现](nyc/selective_early/README.md)
+
+也可以在 [GitHub 上运行独立验证](https://github.com/Owen2005-brilliant/smart_city/actions/workflows/independent-validation.yml)。点击 **Run workflow**，运行结束后从该次运行的 **Artifacts** 下载报告和数据快照。
+
 ## 本地演示
 
 下载仓库并解压，用浏览器打开 [街道积水升级检测器](nyc/FloodNet-街道积水升级检测器.html)。支持真实站点回放和手动输入读数。首个湿读数后第 5 分钟首次判断，暂缓事件在第 8 分钟复查。

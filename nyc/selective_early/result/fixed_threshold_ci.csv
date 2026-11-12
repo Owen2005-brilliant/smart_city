@@ -1,0 +1,3 @@
+period,group,reps,recall_low,recall_high,fpr_low,fpr_high
+main,non_tidal,2000,0.0,0.024154589371980676,0.003744622196232405,0.02525298107428071
+prior,non_tidal,1985,0.0,0.0,0.0,0.014492753623188406

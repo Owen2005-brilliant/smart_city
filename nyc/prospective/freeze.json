@@ -1,0 +1,18 @@
+{
+  "version": "midterm-freeze-v1",
+  "frozen_date": "2026-11-12",
+  "eligible_start_utc": "2026-11-13T00:00:00+00:00",
+  "sha256": {
+    "events.csv": "3e199d082a296f2e7c5ca23c4f4efcac988563ab1740ac5d3d62b85e8e3ad34e",
+    "sites.csv": "54e3d03adc7b001557f353fb111e877036628a1334703d5e64060f289c8a77e9",
+    "engine.js": "db42d4fa978408bc2c236ab19db51838e40b2db85b27d579b647bf4314296e98",
+    "model.json": "c7e2c322d586696a87b7c1eb2e26e7005899101d96bbe92ba1b584103e8296db",
+    "FloodNet-街道积水升级检测器.html": "5cc89fa1a74a01a6efa9685fd52e2d44194428b719624c3033dc0efe7b15b4aa",
+    "result/compare.json": "2a285376c5f942aad758607669d8e2261bec499fdd4a0b13a9ee43c0fd5c928d",
+    "selective_early/result/thresholds.csv": "6e8cf7d46d313e7b894cc37dc78f9c4f2b050a16f4349f3d857c5002c885bf7d",
+    "prospective/frozen_models.json": "7f10fa572d777ac534a0a6ca23b697a24c04589a780c6f6c3da3f3541edab56b",
+    "prospective/scoring.py": "4b8bdd2d3a02e06a61f9ba1e9c0f1e1c2c84ba1e5a108c02d74910e2c3f67765",
+    "prospective/validate_new.py": "0345092bd384c91f4ddd287bc24e38e39f02b9e5a0d6a75900369b0bd6af5b77",
+    "prospective/README.md": "fc621e65c3025e1a05b703026b8315caed8f1a654c90101adcba8a41e1e69431"
+  }
+}
